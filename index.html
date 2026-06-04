@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resonance — Music & Poetry</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Josefin+Sans:wght@200;300;400&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink:        #1a1612;
+      --parchment:  #f5f0e8;
+      --cream:      #ede7d9;
+      --crimson:    #7a1828;
+      --crimson-lt: #f0e0e3;
+      --gold:       #b8860b;
+      --muted:      #7a6f63;
+      --border:     #d4c9b8;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Cormorant Garamond', Georgia, serif; background: var(--parchment); color: var(--ink); min-height: 100vh; }
+
+    header { text-align: center; padding: 2.5rem 2rem 1.5rem; }
+    .site-label { font-family: 'Josefin Sans', sans-serif; font-weight: 200; font-size: 0.6rem; letter-spacing: 0.35em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.6rem; display: block; }
+    h1 { font-size: clamp(2.4rem, 5vw, 4rem); font-weight: 300; line-height: 1.1; }
+    h1 em { font-style: italic; color: var(--gold); }
+    .tagline { margin-top: 0.6rem; font-size: 1rem; font-style: italic; color: var(--muted); }
+    header::after { content: '\2767'; display: block; color: var(--gold); font-size: 1.2rem; margin-top: 1rem; opacity: 0.6; }
+
+    main { max-width: 1100px; margin: 0 auto; padding: 2rem 1.5rem 6rem; }
+
+    .select-section { text-align: center; margin-bottom: 2.5rem; }
+    .select-label { font-family: 'Josefin Sans', sans-serif; font-weight: 300; font-size: 0.6rem; letter-spacing: 0.3em; text-transform: uppercase; color: var(--muted); display: block; margin-bottom: 0.8rem; }
+    .select-wrapper { display: inline-block; position: relative; }
+    select { appearance: none; background: transparent; border: 1px solid var(--border); border-bottom: 2px solid var(--gold); padding: 0.75rem 3rem 0.75rem 1.2rem; font-family: 'Cormorant Garamond', serif; font-size: 1.05rem; color: var(--ink); cursor: pointer; min-width: 360px; outline: none; }
+    .select-arrow { position: absolute; right: 1rem; top: 50%; transform: translateY(-50%); color: var(--gold); pointer-events: none; }
+    .find-btn { display: inline-block; margin-top: 1.2rem; padding: 0.7rem 2.2rem; background: var(--ink); color: var(--parchment); border: none; font-family: 'Josefin Sans', sans-serif; font-weight: 300; font-size: 0.65rem; letter-spacing: 0.25em; text-transform: uppercase; cursor: pointer; transition: background 0.2s; }
+    .find-btn:hover { background: var(--crimson); }
+    .find-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+    .ornament { text-align: center; color: var(--gold); font-size: 0.85rem; letter-spacing: 0.5em; margin: 1.2rem 0; opacity: 0.4; }
+
+    #loading { display: none; text-align: center; padding: 2.5rem; font-style: italic; color: var(--muted); }
+    .loading-dots::after { content: '.'; animation: dots 1.5s infinite; }
+    @keyframes dots { 0%{content:'.'} 33%{content:'..'} 66%{content:'...'} }
+    #error-msg { display: none; text-align: center; padding: 1.2rem; color: #7a1828; font-style: italic; border: 1px solid #d4a8a8; background: #fdf5f5; margin-bottom: 1.5rem; }
+
+    #results { display: none; animation: fadeUp 0.5s ease; }
+    @keyframes fadeUp { from{opacity:0;transform:translateY(14px)} to{opacity:1;transform:translateY(0)} }
+
+    .results-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; align-items: start; }
+
+    /* ── Tablet: narrow two-column ── */
+    @media(max-width: 900px) {
+      .results-layout { grid-template-columns: 1fr 1fr; gap: 1rem; }
+      select { min-width: 260px; }
+    }
+
+    /* ── Mobile: single column, poems side by side ── */
+    @media(max-width: 640px) {
+      h1 { font-size: 2.2rem; }
+      main { padding: 2rem 1rem 4rem; }
+      .select-section { margin-bottom: 1.5rem; }
+      select { min-width: 0; width: 100%; }
+      .select-wrapper { width: 100%; }
+      .find-btn { width: 100%; text-align: center; display: block; }
+      .results-layout { grid-template-columns: 1fr; gap: 1.2rem; }
+      .left-panel { gap: 1rem; }
+      .right-panel { gap: 1rem; }
+      .poems-grid-mobile { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+      .audio-card { padding: 1.2rem; }
+      .features-card { padding: 1.2rem; }
+      .audio-piece-title { font-size: 1.1rem; }
+      .progress-bar-wrap { height: 6px; }
+      .progress-thumb { width: 14px; height: 14px; }
+      .play-btn { width: 44px; height: 44px; }
+      .waveform-container { height: 52px; }
+    }
+
+    /* ── Small mobile: stack poems vertically ── */
+    @media(max-width: 400px) {
+      .poems-grid-mobile { grid-template-columns: 1fr; }
+    }
+
+    .left-panel { display: flex; flex-direction: column; gap: 1.5rem; }
+
+    /* Audio card */
+    .audio-card { background: var(--cream); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; }
+    .audio-piece-title { font-size: 1.3rem; font-weight: 600; text-align: center; margin-bottom: 0.2rem; color: var(--crimson); }
+    .audio-piece-composer { font-size: 0.9rem; color: var(--muted); text-align: center; font-style: italic; margin-bottom: 1.2rem; }
+    .waveform-container { position: relative; height: 64px; margin-bottom: 0.8rem; cursor: pointer; }
+    .waveform-canvas { width: 100%; height: 100%; display: block; }
+    .progress-bar-wrap { position: relative; height: 3px; background: var(--border); border-radius: 2px; margin-bottom: 0.4rem; cursor: pointer; }
+    .progress-bar-fill { height: 100%; background: var(--crimson); border-radius: 2px; width: 0%; pointer-events: none; }
+    .progress-thumb { position: absolute; top: 50%; transform: translate(-50%,-50%); width: 12px; height: 12px; background: var(--crimson); border-radius: 50%; left: 0%; pointer-events: none; }
+    .time-row { display: flex; justify-content: space-between; font-family: 'Josefin Sans', sans-serif; font-size: 0.6rem; color: var(--muted); margin-bottom: 0.8rem; }
+    .controls-row { display: flex; align-items: center; justify-content: space-between; }
+    .vol-btn { background: none; border: none; cursor: pointer; color: var(--muted); padding: 0.2rem; }
+    .play-btn { width: 48px; height: 48px; border-radius: 50%; background: var(--crimson); border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: background 0.15s; }
+    .play-btn:hover { background: #5a1020; }
+    .play-btn svg { fill: white; width: 18px; height: 18px; }
+    .vol-slider { width: 70px; accent-color: var(--crimson); cursor: pointer; }
+    #audio-el { display: none; }
+
+    /* Features card */
+    .features-card { background: var(--cream); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; }
+    .features-card-title { font-family: 'Josefin Sans', sans-serif; font-weight: 400; font-size: 0.85rem; margin-bottom: 1.2rem; color: var(--ink); }
+    .feature-row { display: flex; align-items: flex-start; gap: 0.9rem; margin-bottom: 1rem; }
+    .feature-icon { width: 40px; height: 40px; border-radius: 8px; background: var(--crimson-lt); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+    .feature-icon svg { width: 18px; height: 18px; stroke: var(--crimson); fill: none; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+    .feature-text-key { font-family: 'Josefin Sans', sans-serif; font-size: 0.55rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.15rem; }
+    .feature-text-val { font-size: 1rem; color: var(--ink); }
+    .feature-text-val.italic { font-style: italic; }
+    .features-divider { border: none; border-top: 1px solid var(--border); margin: 1rem 0; }
+    .tags-section-label { font-family: 'Josefin Sans', sans-serif; font-size: 0.55rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.5rem; }
+    .tags-row { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 0.8rem; }
+    .tag-pill { padding: 0.25rem 0.7rem; border-radius: 20px; font-size: 0.85rem; }
+    .tag-filled { background: var(--crimson-lt); color: var(--crimson); }
+    .tag-outline { border: 1px solid var(--border); color: var(--ink); background: transparent; }
+
+    /* Right panel */
+    .right-panel { display: flex; flex-direction: column; gap: 1rem; }
+    .poems-heading { font-family: 'Josefin Sans', sans-serif; font-weight: 200; font-size: 0.6rem; letter-spacing: 0.3em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.4rem; }
+
+    .poem-card { background: var(--cream); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; position: relative; margin-bottom: 1.5rem; }
+    .poem-card::before { content: '\201C'; position: absolute; top: 0.4rem; left: 1rem; font-size: 3.5rem; color: var(--gold); opacity: 0.18; line-height: 1; }
+    .poem-header { margin-bottom: 1rem; padding-bottom: 0.8rem; border-bottom: 1px solid var(--border); }
+    .poem-title-row { display: flex; align-items: baseline; gap: 0.5rem; flex-wrap: wrap; }
+    .poem-title { font-size: 1.05rem; font-weight: 600; line-height: 1.3; color: var(--crimson); }
+    .poem-lang-badge { font-family: 'Josefin Sans', sans-serif; font-size: 0.48rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--crimson); border: 1px solid var(--crimson); padding: 0.1rem 0.35rem; opacity: 0.8; }
+    .poem-excerpt-badge { font-family: 'Josefin Sans', sans-serif; font-size: 0.48rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--muted); border: 1px solid var(--border); padding: 0.1rem 0.35rem; }
+    .poem-poet { font-size: 0.85rem; font-style: italic; color: var(--muted); margin-top: 0.15rem; }
+    .poem-body { font-size: 0.9rem; line-height: 1.9; white-space: pre-wrap; font-weight: 300; }
+    .poem-translation { margin-top: 1rem; padding-top: 0.8rem; border-top: 1px dashed var(--border); font-size: 0.82rem; line-height: 1.8; white-space: pre-wrap; color: var(--muted); font-style: italic; }
+    .translation-label { font-family: 'Josefin Sans', sans-serif; font-size: 0.5rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); display: block; margin-bottom: 0.4rem; font-style: normal; }
+    .poem-footer { margin-top: 1rem; padding-top: 0.7rem; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; }
+    .poem-tags-text { font-family: 'Josefin Sans', sans-serif; font-size: 0.52rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+    .poem-score { font-size: 0.8rem; font-style: italic; color: var(--gold); }
+
+    .hero-select-card { background: var(--cream); border: 1px solid var(--border); border-radius: 12px; padding: 2rem 2rem 1.2rem; max-width: 560px; margin: 0 auto 0; }
+    .hero-card-inner { display: flex; flex-direction: column; align-items: center; gap: 1rem; margin-bottom: 1.2rem; }
+    .hero-card-inner .select-wrapper { width: 100%; }
+    .hero-card-inner select { width: 100%; min-width: 0; }
+    .hero-card-inner .find-btn { width: 100%; text-align: center; }
+    .hero-card-inner .select-label { text-align: center; }
+    .hero-hint { display: flex; justify-content: center; align-items: center; gap: 0.6rem; flex-wrap: wrap; padding-top: 1rem; border-top: 1px solid var(--border); }
+    .hero-hint-item { font-family: 'Josefin Sans', sans-serif; font-size: 0.58rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--muted); }
+    .hero-hint-sep { color: var(--border); font-size: 0.7rem; }
+
+    footer { text-align: center; padding: 1.5rem; border-top: 1px solid var(--border); font-family: 'Josefin Sans', sans-serif; font-size: 0.52rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); }
+  </style>
+</head>
+<body>
+
+<header>
+  <span class="site-label">A music &amp; poetry companion</span>
+  <h1>Reso<em>nance</em></h1>
+  <p class="tagline">Select a piece of music. Discover the poems it echoes.</p>
+</header>
+
+<main>
+  <div class="hero-select-card">
+    <div class="hero-card-inner">
+      <span class="select-label" for="sheet-select">Choose a composition</span>
+      <div class="select-wrapper">
+        <select id="sheet-select">
+          <option value="">— select a piece —</option>
+        </select>
+        <span class="select-arrow">&#9662;</span>
+      </div>
+      <button class="find-btn" id="find-btn" disabled>Find matching poems</button>
+    </div>
+    <div class="hero-hint">
+      <span class="hero-hint-item">&#9834; 21 classical pieces</span>
+      <span class="hero-hint-sep">&middot;</span>
+      <span class="hero-hint-item">40 multilingual poems</span>
+      <span class="hero-hint-sep">&middot;</span>
+      <span class="hero-hint-item">RAG semantic matching</span>
+    </div>
+  </div>
+
+  <div class="ornament">&middot; &middot; &middot;</div>
+  <div id="error-msg"></div>
+  <div id="loading"><span class="loading-dots">Finding resonances</span></div>
+
+  <audio id="audio-el" preload="auto"></audio>
+
+  <div id="results">
+    <div class="results-layout">
+
+      <!-- LEFT -->
+      <div class="left-panel">
+
+        <div class="audio-card">
+          <div class="audio-piece-title" id="player-title">—</div>
+          <div class="audio-piece-composer" id="player-composer">—</div>
+
+          <div class="waveform-container" id="waveform-wrap">
+            <canvas class="waveform-canvas" id="waveform-canvas"></canvas>
+          </div>
+
+          <div class="progress-bar-wrap" id="progress-wrap">
+            <div class="progress-bar-fill" id="progress-fill"></div>
+            <div class="progress-thumb" id="progress-thumb"></div>
+          </div>
+
+          <div class="time-row">
+            <span id="time-current">0:00</span>
+            <span id="time-total">0:00</span>
+          </div>
+
+          <div class="controls-row">
+            <button class="vol-btn" id="vol-btn" title="Mute/unmute">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
+              </svg>
+            </button>
+            <button class="play-btn" id="play-btn" aria-label="Play">
+              <svg id="icon-play" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+              <svg id="icon-pause" viewBox="0 0 24 24" style="display:none"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+            </button>
+            <input type="range" class="vol-slider" id="vol-slider" min="0" max="1" step="0.05" value="1" />
+          </div>
+        </div>
+
+        <div class="features-card">
+          <div class="features-card-title">Musical Features</div>
+
+          <div class="feature-row">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+            </div>
+            <div>
+              <div class="feature-text-key">Tempo</div>
+              <div class="feature-text-val italic" id="feat-tempo">—</div>
+            </div>
+          </div>
+
+          <div class="feature-row">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24"><path d="M4 18V6M8 18V9M12 18v-5M16 18V9M20 18V6"/></svg>
+            </div>
+            <div>
+              <div class="feature-text-key">Key</div>
+              <div class="feature-text-val" id="feat-key">—</div>
+            </div>
+          </div>
+
+          <div class="feature-row">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M12 6v6l4 2"/></svg>
+            </div>
+            <div>
+              <div class="feature-text-key">Mood</div>
+              <div class="feature-text-val italic" id="feat-mood">—</div>
+            </div>
+          </div>
+
+          <div class="feature-row">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            </div>
+            <div>
+              <div class="feature-text-key">Character</div>
+              <div class="feature-text-val italic" id="feat-tags">—</div>
+            </div>
+          </div>
+
+          <hr class="features-divider" />
+
+          <div class="tags-section-label">Mood</div>
+          <div class="tags-row" id="mood-tags"></div>
+
+          <div class="tags-section-label">Semantic Tags</div>
+          <div class="tags-row" id="semantic-tags"></div>
+        </div>
+
+      </div>
+
+      <!-- RIGHT -->
+      <div class="right-panel">
+        <div class="poems-heading">Poems in resonance</div>
+        <div class="poems-grid-mobile" id="poems-container"></div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<footer>
+  Audio: classicals.de (CC BY-NC 4.0) &nbsp;&middot;&nbsp; Poetry: public domain &nbsp;&middot;&nbsp; Powered by RAG &amp; semantic embeddings
+</footer>
+
+<script>
+  // Update this to your Hugging Face Space URL before deploying
+  const API_BASE = 'http://localhost:8000';
+
+  const selectEl      = document.getElementById('sheet-select');
+  const findBtn       = document.getElementById('find-btn');
+  const loadingEl     = document.getElementById('loading');
+  const errorEl       = document.getElementById('error-msg');
+  const resultsEl     = document.getElementById('results');
+  const audioEl       = document.getElementById('audio-el');
+  const playBtn       = document.getElementById('play-btn');
+  const iconPlay      = document.getElementById('icon-play');
+  const iconPause     = document.getElementById('icon-pause');
+  const progressFill  = document.getElementById('progress-fill');
+  const progressThumb = document.getElementById('progress-thumb');
+  const progressWrap  = document.getElementById('progress-wrap');
+  const timeCurrent   = document.getElementById('time-current');
+  const timeTotal     = document.getElementById('time-total');
+  const volBtn        = document.getElementById('vol-btn');
+  const volSlider     = document.getElementById('vol-slider');
+  const waveCanvas    = document.getElementById('waveform-canvas');
+  const ctx2d         = waveCanvas.getContext('2d');
+
+  async function loadSheets() {
+    try {
+      const res = await fetch(API_BASE + '/sheets');
+      if (!res.ok) throw new Error();
+      const sheets = await res.json();
+      sheets.forEach(s => {
+        const opt = document.createElement('option');
+        opt.value = s.id;
+        opt.textContent = s.title + ' \u2014 ' + s.composer;
+        selectEl.appendChild(opt);
+      });
+    } catch(err) {
+      if (!err || err.message === 'Failed to fetch' || err instanceof TypeError) {
+        showError('The server is waking up — please wait 30 seconds and try again. (Hugging Face free tier sleeps when inactive)');
+      } else {
+        showError('Could not connect to the server. Make sure the backend is running.');
+      }
+    }
+  }
+
+  selectEl.addEventListener('change', () => {
+    findBtn.disabled = !selectEl.value;
+    resultsEl.style.display = 'none';
+    hideError();
+  });
+
+  findBtn.addEventListener('click', async () => {
+    if (!selectEl.value) return;
+    hideError();
+    resultsEl.style.display = 'none';
+    loadingEl.style.display = 'block';
+    findBtn.disabled = true;
+    try {
+      const res = await fetch(API_BASE + '/match', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ sheet_id: selectEl.value })
+      });
+      if (!res.ok) throw new Error((await res.json()).detail || 'Server error');
+      render(await res.json());
+    } catch(e) {
+      if (!e || e.message === 'Failed to fetch' || e instanceof TypeError) {
+        showError('The server is waking up — please wait 30 seconds and try again.');
+      } else {
+        showError(e.message || 'Something went wrong. Please try again.');
+      }
+    } finally {
+      loadingEl.style.display = 'none';
+      findBtn.disabled = false;
+    }
+  });
+
+  function render(data) {
+    document.getElementById('player-title').textContent    = data.sheet_title;
+    document.getElementById('player-composer').textContent = data.composer;
+
+    if (data.audio_file) {
+      audioEl.src = API_BASE + '/audio/' + data.audio_file;
+      audioEl.load();
+      audioEl.pause();
+      iconPlay.style.display  = 'block';
+      iconPause.style.display = 'none';
+      resetProgress();
+    }
+
+    var f = data.features;
+    document.getElementById('feat-tempo').textContent = f.tempo_feel || '\u2014';
+    document.getElementById('feat-key').textContent   = f.key_feel   || '\u2014';
+    document.getElementById('feat-mood').textContent  = f.mood       || '\u2014';
+    document.getElementById('feat-tags').textContent  = f.tags       || '\u2014';
+
+    var moodEl = document.getElementById('mood-tags');
+    moodEl.innerHTML = '';
+    (f.mood || '').split(',').slice(0,4).forEach(function(t) {
+      t = t.trim(); if (!t) return;
+      var s = document.createElement('span');
+      s.className = 'tag-pill tag-filled';
+      s.textContent = t;
+      moodEl.appendChild(s);
+    });
+
+    var semEl = document.getElementById('semantic-tags');
+    semEl.innerHTML = '';
+    (f.tags || '').split(',').slice(0,6).forEach(function(t) {
+      t = t.trim(); if (!t) return;
+      var s = document.createElement('span');
+      s.className = 'tag-pill tag-outline';
+      s.textContent = t;
+      semEl.appendChild(s);
+    });
+
+    var container = document.getElementById('poems-container');
+    container.innerHTML = '';
+    data.poems.forEach(function(poem) { container.appendChild(buildPoemCard(poem)); });
+
+    resultsEl.style.display = 'block';
+    resultsEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  function buildPoemCard(poem) {
+    var card = document.createElement('div');
+    card.className = 'poem-card';
+    var langLabel    = poem.language !== 'English' ? '<span class="translation-label" style="margin-bottom:0.6rem;display:block;">'+esc(poem.language)+'</span>' : '';
+    var excerptBadge = poem.is_excerpt ? '<span class="poem-excerpt-badge">excerpt</span>' : '';
+    var translation  = poem.translation ? '<div class="poem-translation"><span class="translation-label">Translation</span>'+esc(poem.translation)+'</div>' : '';
+    var score        = poem.similarity_score ? '<span class="poem-score">'+Math.round(poem.similarity_score*100)+'% match</span>' : '';
+    card.innerHTML =
+      '<div class="poem-header">' +
+        '<div class="poem-title-row"><span class="poem-title">'+esc(poem.title)+'</span>'+excerptBadge+'</div>' +
+        '<div class="poem-poet">'+esc(poem.poet)+'</div>' +
+      '</div>' +
+      '<div class="poem-body">'+langLabel+esc(poem.original)+'</div>' +
+      translation +
+      '<div class="poem-footer"><span class="poem-tags-text">'+esc(poem.tags)+'</span>'+score+'</div>';
+    return card;
+  }
+
+  function drawWaveform(progress) {
+    var w = waveCanvas.offsetWidth  || 400;
+    var h = waveCanvas.offsetHeight || 64;
+    waveCanvas.width  = w * 2;
+    waveCanvas.height = h * 2;
+    ctx2d.scale(2, 2);
+    ctx2d.clearRect(0, 0, w, h);
+    var bars  = 60;
+    var gap   = 2;
+    var barW  = (w - (bars-1)*gap) / bars;
+    var splitX = (progress || 0) * w;
+    for (var i = 0; i < bars; i++) {
+      var x      = i * (barW + gap);
+      var seed   = Math.sin(i*2.3+1.7)*0.5 + Math.sin(i*0.7)*0.3 + 0.2;
+      var bh     = Math.max(4, Math.abs(seed) * h * 0.85);
+      var y      = (h - bh) / 2;
+      var played = x < splitX;
+      ctx2d.fillStyle = played ? '#7a1828' : '#d4c9b8';
+      ctx2d.beginPath();
+      if (ctx2d.roundRect) { ctx2d.roundRect(x, y, barW, bh, 2); } else { ctx2d.rect(x, y, barW, bh); }
+      ctx2d.fill();
+    }
+  }
+
+  function resetProgress() {
+    progressFill.style.width = '0%';
+    progressThumb.style.left = '0%';
+    timeCurrent.textContent  = '0:00';
+    timeTotal.textContent    = '0:00';
+    drawWaveform(0);
+  }
+
+  function formatTime(s) {
+    if (!isFinite(s)) return '0:00';
+    var m = Math.floor(s/60);
+    var sec = Math.floor(s%60);
+    return m + ':' + (sec < 10 ? '0' : '') + sec;
+  }
+
+  audioEl.addEventListener('loadedmetadata', function() {
+    timeTotal.textContent = formatTime(audioEl.duration);
+  });
+
+  audioEl.addEventListener('timeupdate', function() {
+    if (!audioEl.duration) return;
+    var pct = audioEl.currentTime / audioEl.duration;
+    var p   = (pct*100).toFixed(1) + '%';
+    progressFill.style.width = p;
+    progressThumb.style.left = p;
+    timeCurrent.textContent  = formatTime(audioEl.currentTime);
+    drawWaveform(pct);
+  });
+
+  audioEl.addEventListener('ended', function() {
+    iconPlay.style.display  = 'block';
+    iconPause.style.display = 'none';
+  });
+
+  playBtn.addEventListener('click', function() {
+    if (audioEl.paused) {
+      audioEl.play();
+      iconPlay.style.display  = 'none';
+      iconPause.style.display = 'block';
+    } else {
+      audioEl.pause();
+      iconPlay.style.display  = 'block';
+      iconPause.style.display = 'none';
+    }
+  });
+
+  progressWrap.addEventListener('click', function(e) {
+    var rect = progressWrap.getBoundingClientRect();
+    audioEl.currentTime = ((e.clientX - rect.left) / rect.width) * audioEl.duration;
+  });
+
+  waveCanvas.addEventListener('click', function(e) {
+    var rect = waveCanvas.getBoundingClientRect();
+    if (audioEl.duration) audioEl.currentTime = ((e.clientX - rect.left) / rect.width) * audioEl.duration;
+  });
+
+  volSlider.addEventListener('input', function() {
+    audioEl.volume = parseFloat(volSlider.value);
+    audioEl.muted  = audioEl.volume === 0;
+  });
+
+  volBtn.addEventListener('click', function() {
+    audioEl.muted = !audioEl.muted;
+    volSlider.value = audioEl.muted ? 0 : audioEl.volume;
+  });
+
+  function esc(str) {
+    if (!str) return '';
+    return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+  function showError(msg) { errorEl.textContent = msg; errorEl.style.display = 'block'; }
+  function hideError()    { errorEl.style.display = 'none'; }
+
+  loadSheets();
+  drawWaveform(0);
+
+  window.addEventListener('resize', function() {
+    var pct = audioEl.duration ? audioEl.currentTime / audioEl.duration : 0;
+    drawWaveform(pct);
+  });
+</script>
+
+</body>
+</html>
