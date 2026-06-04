@@ -10,6 +10,9 @@ from extract import extract_features_from_image
 from contextlib import asynccontextmanager
 from fastapi.staticfiles import StaticFiles
 
+from dotenv import load_dotenv
+load_dotenv()
+
 
 SHEETS_FILE = "sheets/sheets_metadata.json"
 SHEETS_DIR  = "sheets"
