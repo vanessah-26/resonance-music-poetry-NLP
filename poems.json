@@ -1,0 +1,412 @@
+[
+  {
+    "id": "poem_001",
+    "title": "Sonnet 18: Shall I compare thee to a summer's day?",
+    "poet": "William Shakespeare (1564-1616)",
+    "language": "English",
+    "original": "Shall I compare thee to a summer's day?\nThou art more lovely and more temperate:\nRough winds do shake the darling buds of May,\nAnd summer's lease hath all too short a date;\nSometime too hot the eye of heaven shines,\nAnd often is his gold complexion dimm'd;\nAnd every fair from fair sometime declines,\nBy chance or nature's changing course untrimm'd;\nBut thy eternal summer shall not fade,\nNor lose possession of that fair thou ow'st;\nNor shall death brag thou wander'st in his shade,\nWhen in eternal lines to time thou grow'st:\n   So long as men can breathe or eyes can see,\n   So long lives this, and this gives life to thee.",
+    "translation": null,
+    "is_excerpt": false,
+    "tags": "romantic, celebratory, flowing, timeless, warm, devotional"
+  },
+  {
+    "id": "poem_002",
+    "title": "O Captain! My Captain!",
+    "poet": "Walt Whitman (1819-1892)",
+    "language": "English",
+    "original": "O Captain! my Captain! our fearful trip is done,\nThe ship has weather'd every rack, the prize we sought is won,\nThe port is near, the bells I hear, the people all exulting,\nWhile follow eyes the steady keel, the vessel grim and daring;\nBut O heart! heart! heart!\nO the bleeding drops of red,\nWhere on the deck my Captain lies,\nFallen cold and dead.\nO Captain! my Captain! rise up and hear the bells;\nRise up—for you the flag is flung—for you the bugle trills,\nFor you bouquets and ribbon'd wreaths—for you the shores a-crowding,\nFor you they call, the swaying mass, their eager faces turning;\nHere Captain! dear father!\nThis arm beneath your head!\nIt is some dream that on the deck,\nYou've fallen cold and dead.\nMy Captain does not answer, his lips are pale and still,\nMy father does not feel my arm, he has no pulse nor will,\nThe ship is anchor'd safe and sound, its voyage closed and done,\nFrom fearful trip the victor ship comes in with object won;\nExult O shores, and ring O bells!\nBut I with mournful tread,\nWalk the deck my Captain lies,\nFallen cold and dead.",
+    "translation": null,
+    "is_excerpt": false,
+    "tags": "grief, triumphant, bittersweet, dramatic, march-like, mourning"
+  },
+  {
+    "id": "poem_003",
+    "title": "The Road Not Taken",
+    "poet": "Robert Frost (1874-1963)",
+    "language": "English",
+    "original": "Two roads diverged in a yellow wood,\nAnd sorry I could not travel both\nAnd be one traveler, long I stood\nAnd looked down one as far as I could\nTo where it bent in the undergrowth;\nThen took the other, as just as fair,\nAnd having perhaps the better claim,\nBecause it was grassy and wanted wear;\nThough as for that the passing there\nHad worn them really about the same,\nAnd both that morning equally lay\nIn leaves no step had trodden black.\nOh, I kept the first for another day!\nYet knowing how way leads on to way,\nI doubted if I should ever come back.\nI shall be telling this with a sigh\nSomewhere ages and ages hence:\nTwo roads diverged in a wood, and I—\nI took the one less traveled by,\nAnd that has made all the difference.",
+    "translation": null,
+    "is_excerpt": false,
+    "tags": "reflective, contemplative, slow, nature, melancholic, decisive"
+  },
+  {
+    "id": "poem_004",
+    "title": "Dreams",
+    "poet": "Langston Hughes (1901-1967)",
+    "language": "English",
+    "original": "Hold fast to dreams\nFor if dreams die\nLife is a broken-winged bird\nThat cannot fly.\nHold fast to dreams\nFor when dreams go\nLife is a barren field\nFrozen with snow.",
+    "translation": null,
+    "is_excerpt": false,
+    "tags": "hopeful, gentle, simple, uplifting, melancholic, nature"
+  },
+  {
+    "id": "poem_005",
+    "title": "Happy Thought",
+    "poet": "Robert Louis Stevenson (1850-1894)",
+    "language": "English",
+    "original": "The world is so full of a number of things\nI'm sure we should all be as happy as kings.",
+    "translation": null,
+    "is_excerpt": false,
+    "tags": "joyful, bright, simple, playful, light, cheerful"
+  },
+  {
+    "id": "poem_006",
+    "title": "How Do I Love Thee?",
+    "poet": "Elizabeth Barrett Browning (1806-1861)",
+    "language": "English",
+    "original": "How do I love thee? Let me count the ways.\nI love thee to the depth and breadth and height\nMy soul can reach, when feeling out of sight\nFor the ends of being and ideal grace.\nI love thee to the level of every day's\nMost quiet need, by sun and candle-light.\nI love thee freely, as men strive for right.\nI love thee purely, as they turn from praise.\nI love thee with the passion put to use\nIn my old griefs, and with my childhood's faith.\nI love thee with a love I seemed to lose\nWith my lost saints. I love thee with the breath,\nSmiles, tears, of all my life; and, if God choose,\nI shall but love thee better after death.",
+    "translation": null,
+    "is_excerpt": false,
+    "tags": "romantic, flowing, devotional, warm, passionate, eternal"
+  },
+  {
+    "id": "poem_007",
+    "title": "I'm Nobody! Who Are You?",
+    "poet": "Emily Dickinson (1830-1886)",
+    "language": "English",
+    "original": "I'm Nobody! Who are you?\nAre you - Nobody - too?\nThen there's a pair of us!\nDont tell! they'd banish us - you know!\nHow dreary - to be - Somebody!\nHow public - like a Frog -\nTo tell your name - the livelong June -\nTo an admiring Bog!",
+    "translation": null,
+    "is_excerpt": false,
+    "tags": "playful, witty, light, quirky, humorous, staccato"
+  },
+  {
+    "id": "poem_008",
+    "title": "静夜思 (Thoughts in the Silent Night)",
+    "poet": "Li Bai (701-762)",
+    "language": "Chinese",
+    "original": "床前明月光，\n疑是地上霜。\n举头望明月，\n低头思故乡。",
+    "translation": "Moonlight reflects off the front of my bed.\nCould it actually be the frost on the ground?\nI look up to view the bright moon,\nAnd look down to reminisce about my hometown.",
+    "is_excerpt": false,
+    "tags": "melancholic, longing, quiet, moonlit, homesick, contemplative"
+  },
+  {
+    "id": "poem_009",
+    "title": "小池 (Little Pond)",
+    "poet": "Yang Wanli (1127-1206)",
+    "language": "Chinese",
+    "original": "泉眼无声惜细流，\n树阴照水爱晴柔。\n小荷才露尖尖角，\n早有蜻蜓立上头。",
+    "translation": "A spring runs silent, gentle its flow,\nTrees shade the water, love for all it shows.\nLotus buds peek with tips so small,\nA dragonfly rests atop them all.",
+    "is_excerpt": false,
+    "tags": "peaceful, gentle, nature, delicate, serene, light"
+  },
+  {
+    "id": "poem_010",
+    "title": "送别 (Farewell)",
+    "poet": "Wang Wei (699-761)",
+    "language": "Chinese",
+    "original": "山中相送罢，\n日暮掩柴扉。\n春草年年绿，\n王孙归不归？",
+    "translation": "We part ways deep in the hills;\nAt dusk, I close the wooden gate still.\nSpring grass turns green year after year,\nWill you return, dear friend, or disappear?",
+    "is_excerpt": false,
+    "tags": "melancholic, farewell, quiet, nature, longing, bittersweet"
+  },
+  {
+    "id": "poem_011",
+    "title": "悯农 (Toiling Farmers)",
+    "poet": "Li Shen (772-846)",
+    "language": "Chinese",
+    "original": "锄禾日当午，\n汗滴禾下土。\n谁知盘中餐，\n粒粒皆辛苦。",
+    "translation": "Farmers weeding at noon,\nSweat down the field soon.\nWho knows food on a tray\nThanks to their toiling day?",
+    "is_excerpt": false,
+    "tags": "somber, laborious, contemplative, heavy, earnest, grounded"
+  },
+  {
+    "id": "poem_012",
+    "title": "The Clash of Talent and Destiny (excerpt)",
+    "poet": "Nguyễn Du (1765-1820)",
+    "language": "Vietnamese",
+    "original": "Trăm năm trong cõi người ta,\nChữ tài chữ mệnh khéo là ghét nhau.\nTrải qua một cuộc bể dâu,\nNhững điều trông thấy mà đau đớn lòng.",
+    "translation": "Within the span of a hundred years of human existence,\nHow talent and fate are locked in a bitter feud!\nThrough a sea of mulberry fields—a world of change,\nSights have been seen that wrench the heart.",
+    "is_excerpt": true,
+    "tags": "melancholic, fateful, dramatic, sorrowful, reflective, heavy"
+  },
+  {
+    "id": "poem_013",
+    "title": "Vội Vàng (Haste)",
+    "poet": "Xuân Diệu (1916-1985)",
+    "language": "Vietnamese",
+    "original": "Tôi muốn tắt nắng đi Cho màu đừng nhạt mất;\nTôi muốn buộc gió lại Cho hương đừng bay đi.\nCủa ong bướm này đây tuần tháng mật;\nNày đây hoa của đồng nội xanh rì;\nNày đây lá của cành tơ phơ phất;\nCủa yến anh này đây khúc tình si;\nVà này đây ánh sáng chớp hàng mi;\nMỗi buổi sớm thần Vui hằng gõ cửa;\nTháng Giêng ngon như một cặp môi gần;\nTôi sung sướng. Nhưng vội vàng một nửa:\nTôi không chờ nắng hạ mới hoài xuân.",
+    "translation": "I want to turn off the sun,\nSo that colors don't fade;\nI want to tie down the wind,\nSo that fragrances don't fly away.\nHere is the honeyed week of bees and butterflies;\nHere are the flowers of the lush green fields;\nHere are the leaves of the trembling young branches;\nHere is the passionate song of swallows and orioles;\nAnd here is the light that flashes on eyelashes;\nEach morning the god of Joy knocks at the door;\nJanuary is delicious like a pair of nearby lips; I am happy.\nBut also, in haste: I won't wait for summer sun to regret spring.",
+    "is_excerpt": false,
+    "tags": "passionate, urgent, joyful, nature, longing, vibrant"
+  },
+  {
+    "id": "poem_014",
+    "title": "Đây Thôn Vỹ Dạ (Here is Vỹ Dạ Village)",
+    "poet": "Hàn Mặc Tử (1912-1940)",
+    "language": "Vietnamese",
+    "original": "Sao anh không về chơi thôn Vĩ?\nNhìn nắng hàng cau, nắng mới lên.\nVườn ai mướt quá xanh như ngọc\nLá trúc che ngang mặt chữ điền.\nGió theo lối gió, mây đường mây\nDòng nước buồn thiu, hoa bắp lay.\nThuyền ai đậu bến sông trăng đó\nCó chở trăng về kịp tối nay?\nMở cửa nhìn trăng, trăng trắng quá!\nNgười ấy kìa ai biết tình ai.\nSông trăng lung linh nước lại đầy\nThuyền ai đậu bến, có chờ ai?",
+    "translation": "Why don't you return to Vỹ village?\nSee the sun on the areca palms, the new rising sun.\nWhose garden is so lush, green as jade,\nBamboo leaves cross a rectangular face.\nWind follows its path, clouds follow theirs,\nThe river flows sadly, corn flowers sway.\nWhose boat docks at the moonlit river,\nWill it bring the moon back tonight?\nOpen the door and see the moon, so white!\nThat person there, who knows whose love it is.\nThe moonlit river shimmers, water is full again,\nWhose boat docks at the shore, is it waiting for someone?",
+    "is_excerpt": false,
+    "tags": "dreamlike, melancholic, moonlit, longing, nature, ethereal"
+  },
+  {
+    "id": "poem_015",
+    "title": "Ngắm Trăng (Watching the Moon)",
+    "poet": "Hồ Chí Minh (1890-1969)",
+    "language": "Vietnamese",
+    "original": "Trong tù không rượu cũng không hoa,\nCảnh đẹp đêm nay, khó hững hờ.\nNgười ngắm trăng soi ngoài cửa sổ,\nTrăng nhòm khe cửa ngắm nhà thơ.",
+    "translation": "In prison, there's no wine nor flowers,\nBut tonight, the beautiful scenery is hard to ignore.\nThe man gazes at the moon through the window,\nThe moon peers through the crack, watching the poet.",
+    "is_excerpt": false,
+    "tags": "serene, contemplative, moonlit, quiet, peaceful, resilient"
+  },
+  {
+    "id": "poem_016",
+    "title": "Tát Nước Đầu Đình (Splashing Water at the Communal House)",
+    "poet": "Vietnamese Folk Poem (anonymous)",
+    "language": "Vietnamese",
+    "original": "Tát nước đầu đình, bỏ vành nón tơi,\nNhớ người thôn nữ, mắt tươi tóc thề.",
+    "translation": "Splashing water at the communal house's edge, setting aside my palm-leaf hat,\nI remember the village girl, with bright eyes and flowing hair.",
+    "is_excerpt": false,
+    "tags": "nostalgic, gentle, romantic, simple, rural, longing"
+  },
+  {
+    "id": "poem_017",
+    "title": "Demain, dès l'aube (Tomorrow, at first dawn)",
+    "poet": "Victor Hugo (1802-1885)",
+    "language": "French",
+    "original": "Demain, dès l'aube, à l'heure où blanchit la campagne,\nJe partirai. Vois-tu, je sais que tu m'attends.\nJ'irai par la forêt, j'irai par la montagne.\nJe ne puis demeurer loin de toi plus longtemps.\nJe marcherai les yeux fixés sur mes pensées,\nSans rien voir au dehors, sans entendre aucun bruit,\nSeul, inconnu, le dos courbé, les mains croisées,\nTriste, et le jour pour moi sera comme la nuit.\nJe ne regarderai ni l'or du soir qui tombe,\nNi les voiles au loin descendant vers Harfleur,\nEt quand j'arriverai, je mettrai sur ta tombe\nUn bouquet de houx vert et de bruyère en fleur.",
+    "translation": "Tomorrow, at first dawn, when the country starts to whiten,\nI will set out. You see, I know you're waiting for me.\nI will go by forest, I will go by mountain,\nAway from you I can no longer remain.\nI will walk with eyes fixed onto my thoughts,\nWithout seeing outside, nor hearing any noise,\nAlone, unknown, my back bent, my hands crossed,\nForlorn, and the day for me will be night.\nI will watch neither the gold of the falling evening,\nNor the sails in the distance descending on Harfleur,\nAnd when I get there, I will put on your grave\nA bunch of green holly and blooming heather.",
+    "is_excerpt": false,
+    "tags": "grief, longing, somber, journey, devotional, slow"
+  },
+  {
+    "id": "poem_018",
+    "title": "Chanson d'automne (Autumn Song)",
+    "poet": "Paul Verlaine (1844-1896)",
+    "language": "French",
+    "original": "Les sanglots longs\nDes violons\nDe l'automne\nBlessent mon coeur\nD'une langueur\nMonotone.\nTout suffocant\nEt blême, quand\nSonne l'heure,\nJe me souviens\nDes jours anciens\nEt je pleure;\nEt je m'en vais\nAu vent mauvais\nQui m'emporte\nDeçà, delà,\nPareil à la\nFeuille morte.",
+    "translation": "When a sighing begins\nIn the violins\nOf the autumn-song,\nMy heart is drowned\nIn the slow sound\nLanguorous and long\nPale as with pain,\nBreath fails me when\nThe hours toll deep.\nMy thoughts recover\nThe days that are over,\nAnd I weep.\nAnd I go\nWhere the winds know,\nBroken and brief,\nTo and fro,\nAs the winds blow\nA dead leaf.",
+    "is_excerpt": false,
+    "tags": "melancholic, slow, flowing, autumnal, sorrowful, violin-like"
+  },
+  {
+    "id": "poem_019",
+    "title": "Les roses de Saadi (Saadi's Roses)",
+    "poet": "Marceline Desbordes-Valmore (1786-1859)",
+    "language": "French",
+    "original": "J'ai voulu ce matin te rapporter des roses ;\nMais j'en avais tant pris dans mes ceintures closes\nQue les noeuds trop serrés n'ont pu les contenir.\nLes noeuds ont éclaté. Les roses envolées\nDans le vent, à la mer s'en sont toutes allées.\nElles ont suivi l'eau pour ne plus revenir ;\nLa vague en a paru rouge et comme enflammée.\nCe soir, ma robe encore en est tout embaumée…\nRespires-en sur moi l'odorant souvenir.",
+    "translation": "This morning I wanted to bring you roses\nBut I had gathered so many in my sash's closures\nThat the knots were too tight and couldn't hold them all.\nThe knots burst. The roses blew away\nIn the wind, and off they were all out to sea.\nThey followed the water never to return;\nFrom them the wave seemed red and as if set ablaze.\nTonight, their scent on my dress still remains…\nOn me you will breathe their fragrant memory.",
+    "is_excerpt": false,
+    "tags": "romantic, passionate, fleeting, fragrant, bittersweet, flowing"
+  },
+  {
+    "id": "poem_020",
+    "title": "Le Corbeau et le Renard (The Crow and the Fox)",
+    "poet": "Jean de la Fontaine (1621-1695)",
+    "language": "French",
+    "original": "Maître Corbeau, sur un arbre perché,\nTenait en son bec un fromage.\nMaître Renard, par l'odeur alléché,\nLui tint à peu près ce langage:\nHé! Bonjour, Monsieur du Corbeau.\nQue vous êtes joli! Que vous me semblez beau!\nSans mentir, si votre ramage\nSe rapporte à votre plumage,\nVous êtes le phénix des hôtes de ces bois.\nA ces mots le corbeau ne se sent pas de joie;\nEt, pour montrer sa belle voix,\nIl ouvre un large bec, laisse tombe sa proie.\nLe renard s'en saisit, et dit: Mon bon monsieur,\nApprenez que tout flatteur\nVit aux dépens de celui qui l'écoute:\nCette leçon vaut bien un fromage, sans doute.\nLe corbeau, honteux et confus,\nJura, mais un peu tard, qu'on ne l'y prendrait plus.",
+    "translation": "At the top of a tree perched Master Crow;\nIn his beak he was holding a cheese.\nDrawn by the smell, Master Fox spoke, below.\nThe words, more or less, were these:\nHey, now, Sir Crow! Good day, good day!\nHow very handsome you do look, how grandly distingué!\nNo lie, if those songs you sing match the plumage of your wing,\nYou're the phoenix of these woods, our choice.\nHearing this, the Crow was all rapture and wonder.\nTo show off his handsome voice,\nHe opened beak wide and let go of his plunder.\nThe Fox snapped it up and then said, My Good Sir,\nLearn that each flatterer lives at the cost of those who heed.\nThis lesson is well worth the cheese, indeed.\nThe Crow, ashamed and sick,\nSwore, a bit late, not to fall again for that trick.",
+    "is_excerpt": false,
+    "tags": "playful, witty, fable, light, clever, narrative"
+  },
+  {
+    "id": "poem_021",
+    "title": "Le dormeur du val (The Sleeper of the Valley)",
+    "poet": "Arthur Rimbaud (1854-1891)",
+    "language": "French",
+    "original": "C'est un trou de verdure où chante une rivière\nAccrochant follement aux herbes des haillons\nD'argent; où le soleil de la montagne fière,\nLuit; C'est un petit val qui mousse de rayons.\nUn soldat jeune bouche ouverte, tête nue,\nEt la nuque baignant dans le frais cresson bleu,\nDort; il est étendu dans l'herbe, sous la nue,\nPale dans son lit vert où la lumière pleut.\nLes pieds dans les glaïeuls, il dort. Souriant comme\nSourirait un enfant malade, il fait un somme:\nNature, berce-le chaudement: il a froid.\nLes parfums ne font plus frissonner sa narine;\nIl dort dans le soleil, la main sur sa poitrine\nTranquille. Il a deux trous rouges au coté droit.",
+    "translation": "It's a green hollow where a river sings\nClinging madly to the grasses with its rags\nOf silver, where the sun, from the proud mountain,\nShines; it's a little valley, bubbling with sunlight.\nA young soldier, open-mouthed, bare-headed\nAnd the nape of his neck bathing in cool blue watercress,\nSleeps; he's stretched out in the grass, under the sky,\nPale in his green bed where the light rains.\nHis feet in the gladiolas, he sleeps. Smiling as\nWould smile a sick child, he takes a nap.\nNature, cradle him warmly: he is cold.\nPerfumes no longer make his nostrils quiver;\nHe sleeps in the sun, hand on his chest,\nAt peace. There are two red holes on his right side.",
+    "is_excerpt": false,
+    "tags": "somber, dark, deceptive, nature, war, peaceful-then-tragic"
+  },
+  {
+    "id": "poem_022",
+    "title": "I wandered lonely as a cloud",
+    "poet": "William Wordsworth (1770-1850)",
+    "language": "English",
+    "original": "I wandered lonely as a cloud\nThat floats on high o'er vales and hills\nWhen all at once I saw a crowd\nA host, of golden daffodils",
+    "translation": null,
+    "is_excerpt": true,
+    "tags": "joyful, nature, flowing, light, wandering, serene"
+  },
+  {
+    "id": "poem_023",
+    "title": "Sonnet 130",
+    "poet": "William Shakespeare (1564-1616)",
+    "language": "English",
+    "original": "My mistress' eyes are nothing like the sun\nCoral is far more red than her lips' red\nIf snow be white, why then her breasts are dun;",
+    "translation": null,
+    "is_excerpt": true,
+    "tags": "witty, realistic, romantic, grounded, conversational, gentle"
+  },
+  {
+    "id": "poem_024",
+    "title": "Ode to a Nightingale",
+    "poet": "John Keats (1795-1821)",
+    "language": "English",
+    "original": "My heart aches, and a drowsy numbness pains\nMy sense, as though of hemlock I had drunk,\nOr emptied some dull opiate to the drains\nOne minute past, and Lethe-wards had sunk",
+    "translation": null,
+    "is_excerpt": true,
+    "tags": "melancholic, drowsy, longing, slow, dark, ethereal"
+  },
+  {
+    "id": "poem_025",
+    "title": "Sonnet 43: How do I love thee?",
+    "poet": "Elizabeth Barrett Browning (1806-1861)",
+    "language": "English",
+    "original": "I love thee to the depth and breadth and height\nMy soul can reach, when feeling out of sight\nFor the ends of being and ideal grace.",
+    "translation": null,
+    "is_excerpt": true,
+    "tags": "romantic, devotional, flowing, warm, spiritual, gentle"
+  },
+  {
+    "id": "poem_026",
+    "title": "The Tyger",
+    "poet": "William Blake (1757-1827)",
+    "language": "English",
+    "original": "Tyger, Tyger, burning bright\nIn the forests of the night\nWhat immortal hand or eye\nCould frame thy fearful symmetry",
+    "translation": null,
+    "is_excerpt": true,
+    "tags": "dramatic, fierce, dark, powerful, rhythmic, mysterious"
+  },
+  {
+    "id": "poem_027",
+    "title": "Annabel Lee",
+    "poet": "Edgar Allan Poe (1809-1849)",
+    "language": "English",
+    "original": "It was many and many a year ago\nIn a kingdom by the sea\nThat a maiden there lived whom you may know\nby the name of Annabel Lee",
+    "translation": null,
+    "is_excerpt": true,
+    "tags": "melancholic, romantic, haunting, longing, storytelling, slow"
+  },
+  {
+    "id": "poem_028",
+    "title": "A Psalm of Life",
+    "poet": "Henry Wadsworth Longfellow (1807-1882)",
+    "language": "English",
+    "original": "Tell me not, in mournful numbers,\nLife is but an empty dream!\nFor the soul is dead that slumbers,\nAnd things are not what they seem",
+    "translation": null,
+    "is_excerpt": true,
+    "tags": "uplifting, earnest, march-like, hopeful, grounded, determined"
+  },
+  {
+    "id": "poem_029",
+    "title": "The New Colossus",
+    "poet": "Emma Lazarus (1849-1887)",
+    "language": "English",
+    "original": "Give me your tired, your poor,\nYour huddled masses yearning to breathe free,\nThe wretched refuse of your teeming shore.",
+    "translation": null,
+    "is_excerpt": true,
+    "tags": "powerful, compassionate, dramatic, noble, bold, anthem-like"
+  },
+  {
+    "id": "poem_030",
+    "title": "Lines Composed a Few Miles Above Tintern Abbey",
+    "poet": "William Wordsworth (1770-1850)",
+    "language": "English",
+    "original": "Five years have past; five summers, with the length\nOf five long winters! and again I hear\nThese waters, rolling from their mountain-springs\nWith a soft inland murmur.—Once again\nDo I behold these steep and lofty cliffs",
+    "translation": null,
+    "is_excerpt": true,
+    "tags": "reflective, nature, slow, contemplative, nostalgic, serene"
+  },
+  {
+    "id": "poem_031",
+    "title": "Casey at the Bat",
+    "poet": "Ernest Lawrence Thayer (1863-1940)",
+    "language": "English",
+    "original": "The outlook wasn't brilliant for the Mudville nine that day:\nThe score stood four to two, with but one inning more to play,\nAnd then when Cooney died at first, and Barrows did the same,\nA pall-like silence fell upon the patrons of the game",
+    "translation": null,
+    "is_excerpt": true,
+    "tags": "tense, narrative, dramatic, rhythmic, suspenseful, march-like"
+  },
+  {
+    "id": "poem_032",
+    "title": "Trees",
+    "poet": "Joyce Kilmer (1886-1918)",
+    "language": "English",
+    "original": "I think that I shall never see\nA poem lovely as a tree.",
+    "translation": null,
+    "is_excerpt": false,
+    "tags": "gentle, nature, simple, serene, light, peaceful"
+  },
+  {
+    "id": "poem_033",
+    "title": "How far is it to Heaven?",
+    "poet": "Emily Dickinson (1830-1886)",
+    "language": "English",
+    "original": "How far is it to Heaven?\nAs far as Death this way --\nOf River or of Ridge beyond\nWas no discovery.\nHow far is it to Hell?\nAs far as Death this way --\nHow far left hand the Sepulchre\nDefies Topography.",
+    "translation": null,
+    "is_excerpt": false,
+    "tags": "contemplative, dark, philosophical, quiet, mysterious, somber"
+  },
+  {
+    "id": "poem_034",
+    "title": "Friend",
+    "poet": "Rabindranath Tagore (1861-1941)",
+    "language": "English",
+    "original": "Art thou abroad on this stormy night\non thy journey of love, my friend?\nThe sky groans like one in despair.\nI have no sleep tonight.\nEver and again I open my door and look out on\nthe darkness, my friend!\nI can see nothing before me.\nI wonder where lies thy path!\nBy what dim shore of the ink-black river,\nby what far edge of the frowning forest,\nthrough what mazy depth of gloom art thou threading\nthy course to come to me, my friend?",
+    "translation": null,
+    "is_excerpt": false,
+    "tags": "longing, stormy, dramatic, yearning, dark, searching"
+  },
+  {
+    "id": "poem_035",
+    "title": "From time to time",
+    "poet": "Matsuo Basho (1644-1694)",
+    "language": "English",
+    "original": "From time to time\nThe clouds give rest\nTo the moon-beholders.",
+    "translation": null,
+    "is_excerpt": false,
+    "tags": "peaceful, serene, moonlit, gentle, minimalist, quiet"
+  },
+  {
+    "id": "poem_036",
+    "title": "Fire and Ice",
+    "poet": "Robert Frost (1874-1963)",
+    "language": "English",
+    "original": "Some say the world will end in fire,\nSome say in ice.\nFrom what I've tasted of desire\nI hold with those who favour fire.\nBut if it had to perish twice,\nI think I know enough of hate\nTo say that for destruction ice\nIs also great\nAnd would suffice.",
+    "translation": null,
+    "is_excerpt": false,
+    "tags": "dramatic, dark, philosophical, tense, sharp, staccato"
+  },
+  {
+    "id": "poem_037",
+    "title": "Forgotten Language",
+    "poet": "Shel Silverstein (1930-1999)",
+    "language": "English",
+    "original": "Once I spoke the language of the flowers,\nOnce I understood each word the caterpillar said,\nOnce I smiled in secret at the gossip of the starlings,\nAnd shared a conversation with the housefly\nin my bed.\nOnce I heard and answered all the questions\nof the crickets,\nAnd joined the crying of each falling dying\nflake of snow,\nOnce I spoke the language of the flowers...\nHow did it go?\nHow did it go?",
+    "translation": null,
+    "is_excerpt": false,
+    "tags": "nostalgic, melancholic, whimsical, nature, longing, gentle"
+  },
+  {
+    "id": "poem_038",
+    "title": "Hope is the thing with feathers",
+    "poet": "Emily Dickinson (1830-1886)",
+    "language": "English",
+    "original": "Hope is the thing with feathers\nThat perches in the soul,\nAnd sings the tune without the words,\nAnd never stops at all,\nAnd sweetest in the gale is heard;\nAnd sore must be the storm\nThat could abash the little bird\nThat kept so many warm.\nI've heard it in the chillest land,\nAnd on the strangest sea;\nYet, never, in extremity,\nIt asked a crumb of me.",
+    "translation": null,
+    "is_excerpt": false,
+    "tags": "hopeful, uplifting, gentle, resilient, flowing, warm"
+  },
+  {
+    "id": "poem_039",
+    "title": "First winter rain",
+    "poet": "Matsuo Basho (1644-1694)",
+    "language": "English",
+    "original": "First winter rain--\neven the monkey\nseems to want a raincoat.",
+    "translation": null,
+    "is_excerpt": false,
+    "tags": "gentle, humorous, nature, quiet, minimalist, wistful"
+  },
+  {
+    "id": "poem_040",
+    "title": "The Eagle",
+    "poet": "Alfred, Lord Tennyson (1809-1892)",
+    "language": "English",
+    "original": "He clasps the crag with crooked hands;\nClose to the sun in lonely lands,\nRing'd with the azure world, he stands.\nThe wrinkled sea beneath him crawls;\nHe watches from his mountain walls,\nAnd like a thunderbolt he falls.",
+    "translation": null,
+    "is_excerpt": false,
+    "tags": "dramatic, powerful, majestic, tense, bold, staccato"
+  },
+  {
+    "id": "poem_041",
+    "title": "The Red Wheelbarrow",
+    "poet": "William Carlos Williams (1883-1963)",
+    "language": "English",
+    "original": "so much depends\nupon\na red wheel\nbarrow\nglazed with rain\nwater\nbeside the white\nchickens",
+    "translation": null,
+    "is_excerpt": false,
+    "tags": "minimalist, quiet, simple, grounded, still, contemplative"
+  }
+]
