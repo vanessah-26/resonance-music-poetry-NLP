@@ -8,7 +8,6 @@ from pydantic import BaseModel
 from rag import poems_to_chroma_db, query_poems
 from extract import extract_features_from_image
 from contextlib import asynccontextmanager
-from fastapi.staticfiles import StaticFiles
 
 from dotenv import load_dotenv
 load_dotenv()
@@ -33,7 +32,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-app.mount("/audio", StaticFiles(directory="sheets/audio"), name="audio")
+# app.mount("/audio", StaticFiles(directory="sheets/audio"), name="audio")
 
 
 def load_music_sheets() -> list[dict]:

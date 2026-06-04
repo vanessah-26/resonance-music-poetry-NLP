@@ -295,8 +295,8 @@
 </footer>
 
 <script>
-  // Update this to your Hugging Face Space URL before deploying
-  const API_BASE = 'http://localhost:8000';
+//   const API_BASE = 'http://localhost:8000';
+  const API_BASE = 'https://tvhessa-resonance-backend.hf.space';
 
   const selectEl      = document.getElementById('sheet-select');
   const findBtn       = document.getElementById('find-btn');
@@ -374,7 +374,8 @@
     document.getElementById('player-composer').textContent = data.composer;
 
     if (data.audio_file) {
-      audioEl.src = API_BASE + '/audio/' + data.audio_file;
+    //   audioEl.src = API_BASE + '/audio/' + data.audio_file;
+      audioEl.src = data.audio_file; //updated storage in hf
       audioEl.load();
       audioEl.pause();
       iconPlay.style.display  = 'block';
