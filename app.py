@@ -6,7 +6,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
  
 from rag import poems_to_chroma_db, query_poems
-from extract import extract_features_from_image
+# from extract import extract_features_from_image
 from contextlib import asynccontextmanager
 
 from dotenv import load_dotenv
@@ -112,42 +112,42 @@ def match_poems(request: MatchRequest):
         "poems": poems
     }
 
-@app.post("/upload", response_model=MatchResponse)
-async def upload_sheet(file: UploadFile = File(...)):
-    """
-    When user uploads a new music sheet:
-    1. Call extract.py to get features and tags 
-    2. Query ChromaDB RAG with extracted tags to find matching poems
-    3. REturn extracted features and matched poems to display 
-    """
+# @app.post("/upload", response_model=MatchResponse)
+# async def upload_sheet(file: UploadFile = File(...)):
+#     """
+#     When user uploads a new music sheet:
+#     1. Call extract.py to get features and tags 
+#     2. Query ChromaDB RAG with extracted tags to find matching poems
+#     3. REturn extracted features and matched poems to display 
+#     """
 
-    # Added
-    if not file.content_type.startswith("image/"):
-        raise HTTPException(status_code=400, detail="File must be an image.")
+#     # Added
+#     if not file.content_type.startswith("image/"):
+#         raise HTTPException(status_code=400, detail="File must be an image.")
     
-    img_bytes = await file.read()
+#     img_bytes = await file.read()
 
-    # Extract features 
-    try:
-        features = extract_features_from_image(img_bytes)
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Error extracting features: {e}")
+#     # Extract features 
+#     try:
+#         features = extract_features_from_image(img_bytes)
+#     except Exception as e:
+#         raise HTTPException(status_code=500, detail=f"Error extracting features: {e}")
     
-    # Query RAG 
-    poems = query_poems(features["tags"])
+#     # Query RAG 
+#     poems = query_poems(features["tags"])
 
-    return {
-        "sheet_title": file.filename,
-        "composer":    "Unknown",
-        "audio_file":  None, 
-        "features": {
-            "tempo_feel": features.get("tempo_feel", ""),
-            "key_feel":   features.get("key_feel", ""),
-            "mood":       features.get("mood", ""),
-            "tags":       features["tags"]
-        },
-        "poems": poems
-    }
+#     return {
+#         "sheet_title": file.filename,
+#         "composer":    "Unknown",
+#         "audio_file":  None, 
+#         "features": {
+#             "tempo_feel": features.get("tempo_feel", ""),
+#             "key_feel":   features.get("key_feel", ""),
+#             "mood":       features.get("mood", ""),
+#             "tags":       features["tags"]
+#         },
+#         "poems": poems
+#     }
 
 # health check endpoint
 @app.get("/health")
