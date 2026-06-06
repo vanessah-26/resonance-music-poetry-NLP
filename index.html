@@ -389,7 +389,8 @@
     document.getElementById('player-composer').textContent = data.composer;
 
     if (data.audio_file) {
-      audioEl.src = API_BASE + '/audio/' + data.audio_file;
+      // audioEl.src = API_BASE + '/audio/' + data.audio_file;
+      audioEl.src = data.audio_file;
       audioEl.load();
       audioEl.pause();
       iconPlay.style.display  = 'block';
