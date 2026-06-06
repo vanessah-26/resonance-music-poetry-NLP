@@ -295,9 +295,11 @@
 </footer>
 
 <script>
-//   const API_BASE = 'http://localhost:8000';
-//   const API_BASE = 'https://tvhessa-resonance-backend.hf.space';
-  const API_BASE = 'https://tvhessa-music-poem-space.hf.space';
+  // Update this to your Hugging Face Space URL before deploying
+  const API_BASE = 'http://localhost:8000';
+
+  // Tracks poem IDs shown this session — sent to backend to avoid repetition
+  let shownPoemIds = [];
 
   const selectEl      = document.getElementById('sheet-select');
   const findBtn       = document.getElementById('find-btn');
@@ -342,6 +344,8 @@
     findBtn.disabled = !selectEl.value;
     resultsEl.style.display = 'none';
     hideError();
+    // Note: we intentionally keep shownPoemIds across selections
+    // so that the same poem doesn't appear for different pieces
   });
 
   findBtn.addEventListener('click', async () => {
@@ -354,10 +358,20 @@
       const res = await fetch(API_BASE + '/match', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ sheet_id: selectEl.value })
+        body: JSON.stringify({
+          sheet_id: selectEl.value,
+          exclude_poem_ids: shownPoemIds   // send already-shown poems to backend
+        })
       });
       if (!res.ok) throw new Error((await res.json()).detail || 'Server error');
-      render(await res.json());
+      const data = await res.json();
+      // Track newly shown poem IDs for this session
+      data.poems.forEach(function(p) {
+        if (shownPoemIds.indexOf(p.id) === -1) {
+          shownPoemIds.push(p.id);
+        }
+      });
+      render(data);
     } catch(e) {
       if (!e || e.message === 'Failed to fetch' || e instanceof TypeError) {
         showError('The server is waking up — please wait 30 seconds and try again.');
@@ -375,8 +389,7 @@
     document.getElementById('player-composer').textContent = data.composer;
 
     if (data.audio_file) {
-    //   audioEl.src = API_BASE + '/audio/' + data.audio_file;
-      audioEl.src = data.audio_file; //updated storage in hf
+      audioEl.src = API_BASE + '/audio/' + data.audio_file;
       audioEl.load();
       audioEl.pause();
       iconPlay.style.display  = 'block';
