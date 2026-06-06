@@ -14,9 +14,9 @@ load_dotenv()
 
 
 SHEETS_FILE = "sheets/sheets_metadata.json"
-SHEETS_DIR  = "sheets"
+# SHEETS_DIR  = "sheets"
 
-app = FastAPI()
+# app = FastAPI()
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):

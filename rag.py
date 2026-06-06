@@ -8,28 +8,35 @@ SHEETS_FILE     = "sheets/sheets_metadata.json"
 CHROMA_PATH     = "./chroma_db"                
 COLLECTION_NAME = "poems"
 TOP_K           = 2
+CANDIDATE_POOL  = 10 
 
 
 embedding_sentence = SentenceTransformerEmbeddingFunction(model_name="all-MiniLM-L6-v2")
 chroma_client = chromadb.PersistentClient(path=CHROMA_PATH) 
 
-def poems_to_chroma_db(): 
-    """
-    Load poems.json into ChromaDB  
 
-    
-    """
-
-    # Create poems database and set up embedding function 
-    collection = chroma_client.get_or_create_collection(
+def _get_collection():
+    return chroma_client.get_or_create_collection(
         name=COLLECTION_NAME,
         embedding_function=embedding_sentence,
         metadata={"hnsw:space": "cosine"}
     )
+
+
+def poems_to_chroma_db() -> None:
+    """
+    Load poems.json into ChromaDB.
+    Safe to call on every startup — skips if already populated.
  
-    # Check existed poems, skip if existed
+    RAG indexing happens here:
+    - Each poem's tags string is embedded into a 384-dim vector
+    - Vectors stored in ChromaDB with full poem metadata attached
+    - At query time, music tags are embedded and compared via cosine similarity
+    """
+    collection = _get_collection()
+ 
     if collection.count() > 0:
-        print(f"ChromaDB already loaded ({collection.count()} poems). Skipping.") 
+        print(f"ChromaDB already loaded ({collection.count()} poems). Skipping.")
         return
  
     with open(POEMS_FILE, "r", encoding="utf-8") as f:
@@ -38,13 +45,13 @@ def poems_to_chroma_db():
     print(f"Loading {len(poems)} poems into ChromaDB...")
  
     ids       = []
-    documents = []  # for tags embedding
+    documents = []  # for embedding tags
     metadatas = []  # stored as-is for display
  
     for poem in poems:
         ids.append(poem["id"])
-
-        # only embed tags 
+ 
+        # Only embed tags (appended to the poem, see auto_tag.py) 
         documents.append(poem["tags"])
  
         metadatas.append({
@@ -67,44 +74,43 @@ def poems_to_chroma_db():
  
 
 
-def query_poems(tags: str) -> list[dict]:
-
+def query_poems(tags: str, exclude_ids: list[str] = []) -> list[dict]:
+    """ 
+    RAG query steps:
+    1. Embed music tags with the same model as the poem indexing step
+    2. Get the candidate pool of 10 closest poems by cos similarity
+    3. Skip poems in exclude_ids 
+    4. Return top 2 matches at a time 
     """
-    RAG retrieval: 
-    1. Take a music piece's tag string, embed it with the same model as the poems 
-    2. Find top K most similar poems based on tag embeddings that are closest in vector space(cosine similarity)
-    3. Return the top K poems with metadata 
-
-    """
-
-    # Double check the same collection. 
-    # If not exist, it means the DB is not initialized, raise error.
-
-    collection = chroma_client.get_or_create_collection(
-    name=COLLECTION_NAME,
-    embedding_function=embedding_sentence,
-    metadata={"hnsw:space": "cosine"}
-    )
+    collection = _get_collection()
  
     if collection.count() == 0:
-        raise RuntimeError("ChromaDB is empty. Call init_db() first.")
+        raise RuntimeError("ChromaDB is empty. Call poems_to_chroma_db() first.")
  
-
-    # Retrieve top K poems 
+    # Fetch the candidiate pool and exclude shown poems 
+    n_candidates = min(
+        CANDIDATE_POOL + len(exclude_ids),
+        collection.count()
+    )
+ 
+    # Embed music tags and find closest poem vectors
     results = collection.query(
         query_texts=[tags],
-        n_results=TOP_K
+        n_results=n_candidates
     )
  
     poems = []
-
-
     for i in range(len(results["ids"][0])):
+        pid      = results["ids"][0][i]
         meta     = results["metadatas"][0][i]
         distance = results["distances"][0][i]
  
+        # Skip poems already shown this session
+        if pid in exclude_ids:
+            continue
+ 
         poems.append({
-            "id":               results["ids"][0][i],
+            "id":               pid,
             "title":            meta["title"],
             "poet":             meta["poet"],
             "language":         meta["language"],
@@ -115,22 +121,21 @@ def query_poems(tags: str) -> list[dict]:
             "similarity_score": round(1 - distance, 3)
         })
  
+        if len(poems) == TOP_K:
+            break
+ 
     return poems
 
-def reset_db():
-    """
-    Use when need to clear existing ChromaDB and reload from poems.json 
-    (e.g. after updating poems).
-    """
-    try: 
-        chroma_client.delete_collection(name=COLLECTION_NAME)
+def reset_db() -> None:
+    try:
+        chroma_client.delete_collection(COLLECTION_NAME)
         print("Deleted existing ChromaDB collection.")
     except Exception:
-        # print(f"Error resetting ChromaDB: {e}")
-        pass 
+        pass
     poems_to_chroma_db()
-    print("ChromaDB reset and reloaded with poems.")
+    print("ChromaDB reset and reloaded.")
 
+#### Test RAG locally 
 
 if __name__ == "__main__":
     with open(SHEETS_FILE, "r", encoding="utf-8") as f:
@@ -156,16 +161,23 @@ if __name__ == "__main__":
     print("\nInitializing ChromaDB...")
     poems_to_chroma_db()
  
+    # Test with no exclusions first
+    print(f"\nTop {TOP_K} matching poems (no exclusions):")
     results = query_poems(selected["tags"])
- 
-    print(f"\nTop {TOP_K} matching poems:")
+    shown_ids = []
     for i, poem in enumerate(results, 1):
         print(f"\n--- Match {i} (similarity: {poem['similarity_score']}) ---")
         print(f"Title:    {poem['title']}")
         print(f"Poet:     {poem['poet']}")
-        print(f"Language: {poem['language']}")
         print(f"Tags:     {poem['tags']}")
-        print(f"Excerpt:  {poem['is_excerpt']}")
-        print(f"\n{poem['original']}")
-        if poem["translation"]:
-            print(f"\n[Translation]\n{poem['translation']}")
+        shown_ids.append(poem["id"])
+ 
+    # Test exclusion: simulate user selecting a second piece
+    print(f"\n--- Simulating exclusion of: {shown_ids} ---")
+    results2 = query_poems(selected["tags"], exclude_ids=shown_ids)
+    print(f"\nTop {TOP_K} matching poems (with exclusions):")
+    for i, poem in enumerate(results2, 1):
+        print(f"\n--- Match {i} (similarity: {poem['similarity_score']}) ---")
+        print(f"Title:    {poem['title']}")
+        print(f"Poet:     {poem['poet']}")
+        print(f"Tags:     {poem['tags']}")

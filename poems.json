@@ -7,7 +7,7 @@
     "original": "Shall I compare thee to a summer's day?\nThou art more lovely and more temperate:\nRough winds do shake the darling buds of May,\nAnd summer's lease hath all too short a date;\nSometime too hot the eye of heaven shines,\nAnd often is his gold complexion dimm'd;\nAnd every fair from fair sometime declines,\nBy chance or nature's changing course untrimm'd;\nBut thy eternal summer shall not fade,\nNor lose possession of that fair thou ow'st;\nNor shall death brag thou wander'st in his shade,\nWhen in eternal lines to time thou grow'st:\n   So long as men can breathe or eyes can see,\n   So long lives this, and this gives life to thee.",
     "translation": null,
     "is_excerpt": false,
-    "tags": "romantic, celebratory, flowing, timeless, warm, devotional"
+    "tags": "warm, somber, summer, thou, temperate, wander"
   },
   {
     "id": "poem_002",
@@ -17,7 +17,7 @@
     "original": "O Captain! my Captain! our fearful trip is done,\nThe ship has weather'd every rack, the prize we sought is won,\nThe port is near, the bells I hear, the people all exulting,\nWhile follow eyes the steady keel, the vessel grim and daring;\nBut O heart! heart! heart!\nO the bleeding drops of red,\nWhere on the deck my Captain lies,\nFallen cold and dead.\nO Captain! my Captain! rise up and hear the bells;\nRise up—for you the flag is flung—for you the bugle trills,\nFor you bouquets and ribbon'd wreaths—for you the shores a-crowding,\nFor you they call, the swaying mass, their eager faces turning;\nHere Captain! dear father!\nThis arm beneath your head!\nIt is some dream that on the deck,\nYou've fallen cold and dead.\nMy Captain does not answer, his lips are pale and still,\nMy father does not feel my arm, he has no pulse nor will,\nThe ship is anchor'd safe and sound, its voyage closed and done,\nFrom fearful trip the victor ship comes in with object won;\nExult O shores, and ring O bells!\nBut I with mournful tread,\nWalk the deck my Captain lies,\nFallen cold and dead.",
     "translation": null,
     "is_excerpt": false,
-    "tags": "grief, triumphant, bittersweet, dramatic, march-like, mourning"
+    "tags": "dramatic, bells, ship, deck, mournful, keel"
   },
   {
     "id": "poem_003",
@@ -27,7 +27,7 @@
     "original": "Two roads diverged in a yellow wood,\nAnd sorry I could not travel both\nAnd be one traveler, long I stood\nAnd looked down one as far as I could\nTo where it bent in the undergrowth;\nThen took the other, as just as fair,\nAnd having perhaps the better claim,\nBecause it was grassy and wanted wear;\nThough as for that the passing there\nHad worn them really about the same,\nAnd both that morning equally lay\nIn leaves no step had trodden black.\nOh, I kept the first for another day!\nYet knowing how way leads on to way,\nI doubted if I should ever come back.\nI shall be telling this with a sigh\nSomewhere ages and ages hence:\nTwo roads diverged in a wood, and I—\nI took the one less traveled by,\nAnd that has made all the difference.",
     "translation": null,
     "is_excerpt": false,
-    "tags": "reflective, contemplative, slow, nature, melancholic, decisive"
+    "tags": "traveled, roads, diverged, passing, wood, equally"
   },
   {
     "id": "poem_004",
@@ -37,7 +37,7 @@
     "original": "Hold fast to dreams\nFor if dreams die\nLife is a broken-winged bird\nThat cannot fly.\nHold fast to dreams\nFor when dreams go\nLife is a barren field\nFrozen with snow.",
     "translation": null,
     "is_excerpt": false,
-    "tags": "hopeful, gentle, simple, uplifting, melancholic, nature"
+    "tags": "hopeful, gentle, fast, serene, dreams, frozen"
   },
   {
     "id": "poem_005",
@@ -47,7 +47,7 @@
     "original": "The world is so full of a number of things\nI'm sure we should all be as happy as kings.",
     "translation": null,
     "is_excerpt": false,
-    "tags": "joyful, bright, simple, playful, light, cheerful"
+    "tags": "joyful, kings, happy, world, things, sure"
   },
   {
     "id": "poem_006",
@@ -57,7 +57,7 @@
     "original": "How do I love thee? Let me count the ways.\nI love thee to the depth and breadth and height\nMy soul can reach, when feeling out of sight\nFor the ends of being and ideal grace.\nI love thee to the level of every day's\nMost quiet need, by sun and candle-light.\nI love thee freely, as men strive for right.\nI love thee purely, as they turn from praise.\nI love thee with the passion put to use\nIn my old griefs, and with my childhood's faith.\nI love thee with a love I seemed to lose\nWith my lost saints. I love thee with the breath,\nSmiles, tears, of all my life; and, if God choose,\nI shall but love thee better after death.",
     "translation": null,
     "is_excerpt": false,
-    "tags": "romantic, flowing, devotional, warm, passionate, eternal"
+    "tags": "romantic, thee, love, praise, faith, grace"
   },
   {
     "id": "poem_007",
@@ -67,7 +67,7 @@
     "original": "I'm Nobody! Who are you?\nAre you - Nobody - too?\nThen there's a pair of us!\nDont tell! they'd banish us - you know!\nHow dreary - to be - Somebody!\nHow public - like a Frog -\nTo tell your name - the livelong June -\nTo an admiring Bog!",
     "translation": null,
     "is_excerpt": false,
-    "tags": "playful, witty, light, quirky, humorous, staccato"
+    "tags": "public, somebody, frog, banish, dont, dreary"
   },
   {
     "id": "poem_008",
@@ -77,7 +77,7 @@
     "original": "床前明月光，\n疑是地上霜。\n举头望明月，\n低头思故乡。",
     "translation": "Moonlight reflects off the front of my bed.\nCould it actually be the frost on the ground?\nI look up to view the bright moon,\nAnd look down to reminisce about my hometown.",
     "is_excerpt": false,
-    "tags": "melancholic, longing, quiet, moonlit, homesick, contemplative"
+    "tags": "moonlit, cold, bright, moonlight, moon, frost"
   },
   {
     "id": "poem_009",
@@ -87,7 +87,7 @@
     "original": "泉眼无声惜细流，\n树阴照水爱晴柔。\n小荷才露尖尖角，\n早有蜻蜓立上头。",
     "translation": "A spring runs silent, gentle its flow,\nTrees shade the water, love for all it shows.\nLotus buds peek with tips so small,\nA dragonfly rests atop them all.",
     "is_excerpt": false,
-    "tags": "peaceful, gentle, nature, delicate, serene, light"
+    "tags": "hopeful, gentle, dragonfly, lotus, spring, trees"
   },
   {
     "id": "poem_010",
@@ -97,7 +97,7 @@
     "original": "山中相送罢，\n日暮掩柴扉。\n春草年年绿，\n王孙归不归？",
     "translation": "We part ways deep in the hills;\nAt dusk, I close the wooden gate still.\nSpring grass turns green year after year,\nWill you return, dear friend, or disappear?",
     "is_excerpt": false,
-    "tags": "melancholic, farewell, quiet, nature, longing, bittersweet"
+    "tags": "hopeful, contemplative, disappear, return, grass, spring"
   },
   {
     "id": "poem_011",
@@ -107,7 +107,7 @@
     "original": "锄禾日当午，\n汗滴禾下土。\n谁知盘中餐，\n粒粒皆辛苦。",
     "translation": "Farmers weeding at noon,\nSweat down the field soon.\nWho knows food on a tray\nThanks to their toiling day?",
     "is_excerpt": false,
-    "tags": "somber, laborious, contemplative, heavy, earnest, grounded"
+    "tags": "serene, farmers, weeding, noon, toiling, food"
   },
   {
     "id": "poem_012",
@@ -117,7 +117,7 @@
     "original": "Trăm năm trong cõi người ta,\nChữ tài chữ mệnh khéo là ghét nhau.\nTrải qua một cuộc bể dâu,\nNhững điều trông thấy mà đau đớn lòng.",
     "translation": "Within the span of a hundred years of human existence,\nHow talent and fate are locked in a bitter feud!\nThrough a sea of mulberry fields—a world of change,\nSights have been seen that wrench the heart.",
     "is_excerpt": true,
-    "tags": "melancholic, fateful, dramatic, sorrowful, reflective, heavy"
+    "tags": "fateful, flowing, mulberry, fate, bitter, talent"
   },
   {
     "id": "poem_013",
@@ -127,7 +127,7 @@
     "original": "Tôi muốn tắt nắng đi Cho màu đừng nhạt mất;\nTôi muốn buộc gió lại Cho hương đừng bay đi.\nCủa ong bướm này đây tuần tháng mật;\nNày đây hoa của đồng nội xanh rì;\nNày đây lá của cành tơ phơ phất;\nCủa yến anh này đây khúc tình si;\nVà này đây ánh sáng chớp hàng mi;\nMỗi buổi sớm thần Vui hằng gõ cửa;\nTháng Giêng ngon như một cặp môi gần;\nTôi sung sướng. Nhưng vội vàng một nửa:\nTôi không chờ nắng hạ mới hoài xuân.",
     "translation": "I want to turn off the sun,\nSo that colors don't fade;\nI want to tie down the wind,\nSo that fragrances don't fly away.\nHere is the honeyed week of bees and butterflies;\nHere are the flowers of the lush green fields;\nHere are the leaves of the trembling young branches;\nHere is the passionate song of swallows and orioles;\nAnd here is the light that flashes on eyelashes;\nEach morning the god of Joy knocks at the door;\nJanuary is delicious like a pair of nearby lips; I am happy.\nBut also, in haste: I won't wait for summer sun to regret spring.",
     "is_excerpt": false,
-    "tags": "passionate, urgent, joyful, nature, longing, vibrant"
+    "tags": "bright, hopeful, joyful, spring, fade, butterflies"
   },
   {
     "id": "poem_014",
@@ -137,7 +137,7 @@
     "original": "Sao anh không về chơi thôn Vĩ?\nNhìn nắng hàng cau, nắng mới lên.\nVườn ai mướt quá xanh như ngọc\nLá trúc che ngang mặt chữ điền.\nGió theo lối gió, mây đường mây\nDòng nước buồn thiu, hoa bắp lay.\nThuyền ai đậu bến sông trăng đó\nCó chở trăng về kịp tối nay?\nMở cửa nhìn trăng, trăng trắng quá!\nNgười ấy kìa ai biết tình ai.\nSông trăng lung linh nước lại đầy\nThuyền ai đậu bến, có chờ ai?",
     "translation": "Why don't you return to Vỹ village?\nSee the sun on the areca palms, the new rising sun.\nWhose garden is so lush, green as jade,\nBamboo leaves cross a rectangular face.\nWind follows its path, clouds follow theirs,\nThe river flows sadly, corn flowers sway.\nWhose boat docks at the moonlit river,\nWill it bring the moon back tonight?\nOpen the door and see the moon, so white!\nThat person there, who knows whose love it is.\nThe moonlit river shimmers, water is full again,\nWhose boat docks at the shore, is it waiting for someone?",
     "is_excerpt": false,
-    "tags": "dreamlike, melancholic, moonlit, longing, nature, ethereal"
+    "tags": "moonlit, flowing, moon, village, river, return"
   },
   {
     "id": "poem_015",
@@ -147,7 +147,7 @@
     "original": "Trong tù không rượu cũng không hoa,\nCảnh đẹp đêm nay, khó hững hờ.\nNgười ngắm trăng soi ngoài cửa sổ,\nTrăng nhòm khe cửa ngắm nhà thơ.",
     "translation": "In prison, there's no wine nor flowers,\nBut tonight, the beautiful scenery is hard to ignore.\nThe man gazes at the moon through the window,\nThe moon peers through the crack, watching the poet.",
     "is_excerpt": false,
-    "tags": "serene, contemplative, moonlit, quiet, peaceful, resilient"
+    "tags": "moonlit, delicate, romantic, prison, moon, poet"
   },
   {
     "id": "poem_016",
@@ -157,7 +157,7 @@
     "original": "Tát nước đầu đình, bỏ vành nón tơi,\nNhớ người thôn nữ, mắt tươi tóc thề.",
     "translation": "Splashing water at the communal house's edge, setting aside my palm-leaf hat,\nI remember the village girl, with bright eyes and flowing hair.",
     "is_excerpt": false,
-    "tags": "nostalgic, gentle, romantic, simple, rural, longing"
+    "tags": "nature, bright, village, leaf, splashing, hair"
   },
   {
     "id": "poem_017",
@@ -167,7 +167,7 @@
     "original": "Demain, dès l'aube, à l'heure où blanchit la campagne,\nJe partirai. Vois-tu, je sais que tu m'attends.\nJ'irai par la forêt, j'irai par la montagne.\nJe ne puis demeurer loin de toi plus longtemps.\nJe marcherai les yeux fixés sur mes pensées,\nSans rien voir au dehors, sans entendre aucun bruit,\nSeul, inconnu, le dos courbé, les mains croisées,\nTriste, et le jour pour moi sera comme la nuit.\nJe ne regarderai ni l'or du soir qui tombe,\nNi les voiles au loin descendant vers Harfleur,\nEt quand j'arriverai, je mettrai sur ta tombe\nUn bouquet de houx vert et de bruyère en fleur.",
     "translation": "Tomorrow, at first dawn, when the country starts to whiten,\nI will set out. You see, I know you're waiting for me.\nI will go by forest, I will go by mountain,\nAway from you I can no longer remain.\nI will walk with eyes fixed onto my thoughts,\nWithout seeing outside, nor hearing any noise,\nAlone, unknown, my back bent, my hands crossed,\nForlorn, and the day for me will be night.\nI will watch neither the gold of the falling evening,\nNor the sails in the distance descending on Harfleur,\nAnd when I get there, I will put on your grave\nA bunch of green holly and blooming heather.",
     "is_excerpt": false,
-    "tags": "grief, longing, somber, journey, devotional, slow"
+    "tags": "somber, nature, grave, evening, blooming, forlorn"
   },
   {
     "id": "poem_018",
@@ -177,7 +177,7 @@
     "original": "Les sanglots longs\nDes violons\nDe l'automne\nBlessent mon coeur\nD'une langueur\nMonotone.\nTout suffocant\nEt blême, quand\nSonne l'heure,\nJe me souviens\nDes jours anciens\nEt je pleure;\nEt je m'en vais\nAu vent mauvais\nQui m'emporte\nDeçà, delà,\nPareil à la\nFeuille morte.",
     "translation": "When a sighing begins\nIn the violins\nOf the autumn-song,\nMy heart is drowned\nIn the slow sound\nLanguorous and long\nPale as with pain,\nBreath fails me when\nThe hours toll deep.\nMy thoughts recover\nThe days that are over,\nAnd I weep.\nAnd I go\nWhere the winds know,\nBroken and brief,\nTo and fro,\nAs the winds blow\nA dead leaf.",
     "is_excerpt": false,
-    "tags": "melancholic, slow, flowing, autumnal, sorrowful, violin-like"
+    "tags": "sorrowful, autumnal, passionate, sighing, weep, breath"
   },
   {
     "id": "poem_019",
@@ -187,7 +187,7 @@
     "original": "J'ai voulu ce matin te rapporter des roses ;\nMais j'en avais tant pris dans mes ceintures closes\nQue les noeuds trop serrés n'ont pu les contenir.\nLes noeuds ont éclaté. Les roses envolées\nDans le vent, à la mer s'en sont toutes allées.\nElles ont suivi l'eau pour ne plus revenir ;\nLa vague en a paru rouge et comme enflammée.\nCe soir, ma robe encore en est tout embaumée…\nRespires-en sur moi l'odorant souvenir.",
     "translation": "This morning I wanted to bring you roses\nBut I had gathered so many in my sash's closures\nThat the knots were too tight and couldn't hold them all.\nThe knots burst. The roses blew away\nIn the wind, and off they were all out to sea.\nThey followed the water never to return;\nFrom them the wave seemed red and as if set ablaze.\nTonight, their scent on my dress still remains…\nOn me you will breathe their fragrant memory.",
     "is_excerpt": false,
-    "tags": "romantic, passionate, fleeting, fragrant, bittersweet, flowing"
+    "tags": "roses, fragrant, knots, bring, wave, morning"
   },
   {
     "id": "poem_020",
@@ -197,7 +197,7 @@
     "original": "Maître Corbeau, sur un arbre perché,\nTenait en son bec un fromage.\nMaître Renard, par l'odeur alléché,\nLui tint à peu près ce langage:\nHé! Bonjour, Monsieur du Corbeau.\nQue vous êtes joli! Que vous me semblez beau!\nSans mentir, si votre ramage\nSe rapporte à votre plumage,\nVous êtes le phénix des hôtes de ces bois.\nA ces mots le corbeau ne se sent pas de joie;\nEt, pour montrer sa belle voix,\nIl ouvre un large bec, laisse tombe sa proie.\nLe renard s'en saisit, et dit: Mon bon monsieur,\nApprenez que tout flatteur\nVit aux dépens de celui qui l'écoute:\nCette leçon vaut bien un fromage, sans doute.\nLe corbeau, honteux et confus,\nJura, mais un peu tard, qu'on ne l'y prendrait plus.",
     "translation": "At the top of a tree perched Master Crow;\nIn his beak he was holding a cheese.\nDrawn by the smell, Master Fox spoke, below.\nThe words, more or less, were these:\nHey, now, Sir Crow! Good day, good day!\nHow very handsome you do look, how grandly distingué!\nNo lie, if those songs you sing match the plumage of your wing,\nYou're the phoenix of these woods, our choice.\nHearing this, the Crow was all rapture and wonder.\nTo show off his handsome voice,\nHe opened beak wide and let go of his plunder.\nThe Fox snapped it up and then said, My Good Sir,\nLearn that each flatterer lives at the cost of those who heed.\nThis lesson is well worth the cheese, indeed.\nThe Crow, ashamed and sick,\nSwore, a bit late, not to fall again for that trick.",
     "is_excerpt": false,
-    "tags": "playful, witty, fable, light, clever, narrative"
+    "tags": "nature, crow, plumage, tree, heed, rapture"
   },
   {
     "id": "poem_021",
@@ -207,7 +207,7 @@
     "original": "C'est un trou de verdure où chante une rivière\nAccrochant follement aux herbes des haillons\nD'argent; où le soleil de la montagne fière,\nLuit; C'est un petit val qui mousse de rayons.\nUn soldat jeune bouche ouverte, tête nue,\nEt la nuque baignant dans le frais cresson bleu,\nDort; il est étendu dans l'herbe, sous la nue,\nPale dans son lit vert où la lumière pleut.\nLes pieds dans les glaïeuls, il dort. Souriant comme\nSourirait un enfant malade, il fait un somme:\nNature, berce-le chaudement: il a froid.\nLes parfums ne font plus frissonner sa narine;\nIl dort dans le soleil, la main sur sa poitrine\nTranquille. Il a deux trous rouges au coté droit.",
     "translation": "It's a green hollow where a river sings\nClinging madly to the grasses with its rags\nOf silver, where the sun, from the proud mountain,\nShines; it's a little valley, bubbling with sunlight.\nA young soldier, open-mouthed, bare-headed\nAnd the nape of his neck bathing in cool blue watercress,\nSleeps; he's stretched out in the grass, under the sky,\nPale in his green bed where the light rains.\nHis feet in the gladiolas, he sleeps. Smiling as\nWould smile a sick child, he takes a nap.\nNature, cradle him warmly: he is cold.\nPerfumes no longer make his nostrils quiver;\nHe sleeps in the sun, hand on his chest,\nAt peace. There are two red holes on his right side.",
     "is_excerpt": false,
-    "tags": "somber, dark, deceptive, nature, war, peaceful-then-tragic"
+    "tags": "majestic, gladiolas, hollow, sunlight, mountain, warmly"
   },
   {
     "id": "poem_022",
@@ -217,7 +217,7 @@
     "original": "I wandered lonely as a cloud\nThat floats on high o'er vales and hills\nWhen all at once I saw a crowd\nA host, of golden daffodils",
     "translation": null,
     "is_excerpt": true,
-    "tags": "joyful, nature, flowing, light, wandering, serene"
+    "tags": "warm, daffodils, wandered, lonely, hills, crowd"
   },
   {
     "id": "poem_023",
@@ -227,7 +227,7 @@
     "original": "My mistress' eyes are nothing like the sun\nCoral is far more red than her lips' red\nIf snow be white, why then her breasts are dun;",
     "translation": null,
     "is_excerpt": true,
-    "tags": "witty, realistic, romantic, grounded, conversational, gentle"
+    "tags": "passionate, bright, cold, mistress, breasts, coral"
   },
   {
     "id": "poem_024",
@@ -237,7 +237,7 @@
     "original": "My heart aches, and a drowsy numbness pains\nMy sense, as though of hemlock I had drunk,\nOr emptied some dull opiate to the drains\nOne minute past, and Lethe-wards had sunk",
     "translation": null,
     "is_excerpt": true,
-    "tags": "melancholic, drowsy, longing, slow, dark, ethereal"
+    "tags": "passionate, nostalgic, numbness, drowsy, pains, opiate"
   },
   {
     "id": "poem_025",
@@ -247,7 +247,7 @@
     "original": "I love thee to the depth and breadth and height\nMy soul can reach, when feeling out of sight\nFor the ends of being and ideal grace.",
     "translation": null,
     "is_excerpt": true,
-    "tags": "romantic, devotional, flowing, warm, spiritual, gentle"
+    "tags": "devotional, romantic, thee, grace, depth, soul"
   },
   {
     "id": "poem_026",
@@ -257,7 +257,7 @@
     "original": "Tyger, Tyger, burning bright\nIn the forests of the night\nWhat immortal hand or eye\nCould frame thy fearful symmetry",
     "translation": null,
     "is_excerpt": true,
-    "tags": "dramatic, fierce, dark, powerful, rhythmic, mysterious"
+    "tags": "nocturnal, bright, tyger, night, forests, burning"
   },
   {
     "id": "poem_027",
@@ -267,7 +267,7 @@
     "original": "It was many and many a year ago\nIn a kingdom by the sea\nThat a maiden there lived whom you may know\nby the name of Annabel Lee",
     "translation": null,
     "is_excerpt": true,
-    "tags": "melancholic, romantic, haunting, longing, storytelling, slow"
+    "tags": "flowing, annabel, maiden, kingdom, lived, year"
   },
   {
     "id": "poem_028",
@@ -277,7 +277,7 @@
     "original": "Tell me not, in mournful numbers,\nLife is but an empty dream!\nFor the soul is dead that slumbers,\nAnd things are not what they seem",
     "translation": null,
     "is_excerpt": true,
-    "tags": "uplifting, earnest, march-like, hopeful, grounded, determined"
+    "tags": "devotional, dreamy, somber, mournful, slumbers, life"
   },
   {
     "id": "poem_029",
@@ -287,7 +287,7 @@
     "original": "Give me your tired, your poor,\nYour huddled masses yearning to breathe free,\nThe wretched refuse of your teeming shore.",
     "translation": null,
     "is_excerpt": true,
-    "tags": "powerful, compassionate, dramatic, noble, bold, anthem-like"
+    "tags": "longing, huddled, wretched, yearning, tired, refuse"
   },
   {
     "id": "poem_030",
@@ -297,7 +297,7 @@
     "original": "Five years have past; five summers, with the length\nOf five long winters! and again I hear\nThese waters, rolling from their mountain-springs\nWith a soft inland murmur.—Once again\nDo I behold these steep and lofty cliffs",
     "translation": null,
     "is_excerpt": true,
-    "tags": "reflective, nature, slow, contemplative, nostalgic, serene"
+    "tags": "cliffs, winters, springs, inland, steep, murmur"
   },
   {
     "id": "poem_031",
@@ -307,7 +307,7 @@
     "original": "The outlook wasn't brilliant for the Mudville nine that day:\nThe score stood four to two, with but one inning more to play,\nAnd then when Cooney died at first, and Barrows did the same,\nA pall-like silence fell upon the patrons of the game",
     "translation": null,
     "is_excerpt": true,
-    "tags": "tense, narrative, dramatic, rhythmic, suspenseful, march-like"
+    "tags": "quiet, mudville, cooney, inning, silence, died"
   },
   {
     "id": "poem_032",
@@ -317,7 +317,7 @@
     "original": "I think that I shall never see\nA poem lovely as a tree.",
     "translation": null,
     "is_excerpt": false,
-    "tags": "gentle, nature, simple, serene, light, peaceful"
+    "tags": "nature, poem, tree, lovely, shall, think"
   },
   {
     "id": "poem_033",
@@ -327,7 +327,7 @@
     "original": "How far is it to Heaven?\nAs far as Death this way --\nOf River or of Ridge beyond\nWas no discovery.\nHow far is it to Hell?\nAs far as Death this way --\nHow far left hand the Sepulchre\nDefies Topography.",
     "translation": null,
     "is_excerpt": false,
-    "tags": "contemplative, dark, philosophical, quiet, mysterious, somber"
+    "tags": "ethereal, flowing, heaven, topography, hell, ridge"
   },
   {
     "id": "poem_034",
@@ -337,7 +337,7 @@
     "original": "Art thou abroad on this stormy night\non thy journey of love, my friend?\nThe sky groans like one in despair.\nI have no sleep tonight.\nEver and again I open my door and look out on\nthe darkness, my friend!\nI can see nothing before me.\nI wonder where lies thy path!\nBy what dim shore of the ink-black river,\nby what far edge of the frowning forest,\nthrough what mazy depth of gloom art thou threading\nthy course to come to me, my friend?",
     "translation": null,
     "is_excerpt": false,
-    "tags": "longing, stormy, dramatic, yearning, dark, searching"
+    "tags": "dark, wandering, darkness, thou, path, stormy"
   },
   {
     "id": "poem_035",
@@ -347,7 +347,7 @@
     "original": "From time to time\nThe clouds give rest\nTo the moon-beholders.",
     "translation": null,
     "is_excerpt": false,
-    "tags": "peaceful, serene, moonlit, gentle, minimalist, quiet"
+    "tags": "moonlit, contemplative, clouds, moon, beholders, rest"
   },
   {
     "id": "poem_036",
@@ -357,7 +357,7 @@
     "original": "Some say the world will end in fire,\nSome say in ice.\nFrom what I've tasted of desire\nI hold with those who favour fire.\nBut if it had to perish twice,\nI think I know enough of hate\nTo say that for destruction ice\nIs also great\nAnd would suffice.",
     "translation": null,
     "is_excerpt": false,
-    "tags": "dramatic, dark, philosophical, tense, sharp, staccato"
+    "tags": "cold, destruction, desire, world, perish, hate"
   },
   {
     "id": "poem_037",
@@ -367,7 +367,7 @@
     "original": "Once I spoke the language of the flowers,\nOnce I understood each word the caterpillar said,\nOnce I smiled in secret at the gossip of the starlings,\nAnd shared a conversation with the housefly\nin my bed.\nOnce I heard and answered all the questions\nof the crickets,\nAnd joined the crying of each falling dying\nflake of snow,\nOnce I spoke the language of the flowers...\nHow did it go?\nHow did it go?",
     "translation": null,
     "is_excerpt": false,
-    "tags": "nostalgic, melancholic, whimsical, nature, longing, gentle"
+    "tags": "delicate, cold, caterpillar, flowers, housefly, starlings"
   },
   {
     "id": "poem_038",
@@ -377,7 +377,7 @@
     "original": "Hope is the thing with feathers\nThat perches in the soul,\nAnd sings the tune without the words,\nAnd never stops at all,\nAnd sweetest in the gale is heard;\nAnd sore must be the storm\nThat could abash the little bird\nThat kept so many warm.\nI've heard it in the chillest land,\nAnd on the strangest sea;\nYet, never, in extremity,\nIt asked a crumb of me.",
     "translation": null,
     "is_excerpt": false,
-    "tags": "hopeful, uplifting, gentle, resilient, flowing, warm"
+    "tags": "stormy, hopeful, devotional, flowing, tune, storm"
   },
   {
     "id": "poem_039",
@@ -387,7 +387,7 @@
     "original": "First winter rain--\neven the monkey\nseems to want a raincoat.",
     "translation": null,
     "is_excerpt": false,
-    "tags": "gentle, humorous, nature, quiet, minimalist, wistful"
+    "tags": "melancholic, cold, raincoat, rain, monkey, winter"
   },
   {
     "id": "poem_040",
@@ -397,7 +397,7 @@
     "original": "He clasps the crag with crooked hands;\nClose to the sun in lonely lands,\nRing'd with the azure world, he stands.\nThe wrinkled sea beneath him crawls;\nHe watches from his mountain walls,\nAnd like a thunderbolt he falls.",
     "translation": null,
     "is_excerpt": false,
-    "tags": "dramatic, powerful, majestic, tense, bold, staccato"
+    "tags": "majestic, bright, crag, falls, mountain, ring"
   },
   {
     "id": "poem_041",
@@ -407,6 +407,196 @@
     "original": "so much depends\nupon\na red wheel\nbarrow\nglazed with rain\nwater\nbeside the white\nchickens",
     "translation": null,
     "is_excerpt": false,
-    "tags": "minimalist, quiet, simple, grounded, still, contemplative"
+    "tags": "melancholic, flowing, passionate, chickens, wheel, rain"
+  },
+  {
+    "id": "poem_042",
+    "title": "I taste a liquor never brewed",
+    "poet": "Emily Dickinson (1830-1886)",
+    "language": "English",
+    "original": "I taste a liquor never brewed –\nFrom Tankards scooped in Pearl –\nNot all the Frankfort Berries\nYield such an Alcohol!\nInebriate of air – am I –\nAnd Debauchee of Dew –\nReeling – thro' endless summer days –\nFrom inns of molten Blue –\nWhen \"Landlords\" turn the drunken Bee\nOut of the Foxglove's door –\nWhen Butterflies – renounce their \"drams\" –\nI shall but drink the more!\nTill Seraphs swing their snowy Hats –\nAnd Saints – to windows run –\nTo see the little Tippler\nLeaning against the – Sun!",
+    "translation": null,
+    "is_excerpt": false,
+    "tags": "liquor, butterflies, seraphs, berries, inebriate, inns"
+  },
+  {
+    "id": "poem_043",
+    "title": "Spring",
+    "poet": "Gerard Manley Hopkins (1844-1889)",
+    "language": "English",
+    "original": "Nothing is so beautiful as Spring –\n   When weeds, in wheels, shoot long and lovely and lush;\n   Thrush's eggs look little low heavens, and thrush\nThrough the echoing timber does so rinse and wring\nThe ear, it strikes like lightnings to hear him sing;\n   The glassy peartree leaves and blooms, they brush\n   The descending blue; that blue is all in a rush\nWith richness; the racing lambs too have fair their fling.\nWhat is all this juice and all this joy?\n   A strain of the earth's sweet being in the beginning\nIn Eden garden. – Have, get, before it cloy,\n   Before it cloud, Christ, lord, and sour with sinning,\nInnocent mind and Mayday in girl and boy,\n   Most, O maid's child, thy choice and worthy the winning.",
+    "translation": null,
+    "is_excerpt": false,
+    "tags": "hopeful, eden, blooms, spring, sinning, maid"
+  },
+  {
+    "id": "poem_044",
+    "title": "Pippa's Song",
+    "poet": "Robert Browning (1812-1889)",
+    "language": "English",
+    "original": "The year's at the spring,\nAnd day's at the morn;\nMorning's at seven;\nThe hill-side's dew-pearl'd;\nThe lark's on the wing;\nThe snail's on the thorn;\nGod's in His heaven,\nAll's right with the world!",
+    "translation": null,
+    "is_excerpt": false,
+    "tags": "hopeful, ethereal, spring, heaven, lark, thorn"
+  },
+  {
+    "id": "poem_045",
+    "title": "October",
+    "poet": "Robert Frost (1874-1963)",
+    "language": "English",
+    "original": "O hushed October morning mild,\nThy leaves have ripened to the fall;\nTomorrow's wind, if it be wild,\nShould waste them all.\nThe crows above the forest call;\nTomorrow they may form and go.\nO hushed October morning mild,\nBegin the hours of this day slow.\nMake the day seem to us less brief.\nHearts not averse to being beguiled,\nBeguile us in the way you know.\nRelease one leaf at break of day;\nAt noon release another leaf;\nOne from our trees, one far away.\nRetard the sun with gentle mist;\nEnchant the land with amethyst.\nSlow, slow!\nFor the grapes' sake, if they were all,\nWhose leaves already are burnt with frost,\nWhose clustered fruit must else be lost—\nFor the grapes' sake along the wall.",
+    "translation": null,
+    "is_excerpt": false,
+    "tags": "nature, hushed, grapes, leaves, beguiled, october"
+  },
+  {
+    "id": "poem_046",
+    "title": "To Autumn",
+    "poet": "John Keats (1795-1821)",
+    "language": "English",
+    "original": "Season of mists and mellow fruitfulness,\nClose bosom-friend of the maturing sun;\nConspiring with him how to load and bless\nWith fruit the vines that round the thatch-eves run;\nTo bend with apples the moss'd cottage-trees,\nAnd fill all fruit with ripeness to the core;\nTo swell the gourd, and plump the hazel shells\nWith a sweet kernel; to set budding more,\nAnd still more, later flowers for the bees,\nUntil they think warm days will never cease,\nFor summer has o'er-brimm'd their clammy cells.\nWho hath not seen thee oft amid thy store?\nSometimes whoever seeks abroad may find\nThee sitting careless on a granary floor,\nThy hair soft-lifted by the winnowing wind;\nOr on a half-reap'd furrow sound asleep,\nDrows'd with the fume of poppies, while thy hook\nSpares the next swath and all its twined flowers:\nAnd sometimes like a gleaner thou dost keep\nSteady thy laden head across a brook;\nOr by a cyder-press, with patient look,\nThou watchest the last oozings hours by hours.\nWhere are the songs of Spring? Ay, where are they?\nThink not of them, thou hast thy music too,—\nWhile barred clouds bloom the soft-dying day,\nAnd touch the stubble-plains with rosy hue;\nThen in a wailful choir the small gnats mourn\nAmong the river sallows, borne aloft\nOr sinking as the light wind lives or dies;\nAnd full-grown lambs loud bleat from hilly bourn;\nHedge-crickets sing; and now with treble soft\nThe red-breast whistles from a garden-croft;\nAnd gathering swallows twitter in the skies.",
+    "translation": null,
+    "is_excerpt": false,
+    "tags": "delicate, hopeful, oozings, flowers, fruitfulness, mists"
+  },
+  {
+    "id": "poem_047",
+    "title": "Golden Slumbers Kiss Your Eyes",
+    "poet": "Thomas Dekker (1572-1632)",
+    "language": "English",
+    "original": "Golden slumbers kiss your eyes,\nSmiles awake you when you rise;\nSleep, pretty wantons, do not cry,\nAnd I will sing a lullaby,\nRock them, rock them, lullaby.\nCare is heavy, therefore sleep you,\nYou are care, and care must keep you;\nSleep, pretty wantons, do not cry,\nAnd I will sing a lullaby,\nRock them, rock them, lullaby.",
+    "translation": null,
+    "is_excerpt": false,
+    "tags": "warm, lullaby, slumbers, sing, care, golden"
+  },
+  {
+    "id": "poem_048",
+    "title": "Invictus",
+    "poet": "William Ernest Henley (1849-1903)",
+    "language": "English",
+    "original": "Out of the night that covers me,\n      Black as the pit from pole to pole,\nI thank whatever gods may be\n      For my unconquerable soul.\nIn the fell clutch of circumstance\n      I have not winced nor cried aloud.\nUnder the bludgeonings of chance\n      My head is bloody, but unbowed.\nBeyond this place of wrath and tears\n      Looms but the Horror of the shade,\nAnd yet the menace of the years\n      Finds and shall find me unafraid.\nIt matters not how strait the gate,\n      How charged with punishments the scroll,\nI am the master of my fate,\n      I am the captain of my soul.",
+    "translation": null,
+    "is_excerpt": false,
+    "tags": "nocturnal, fateful, devotional, wrath, punishments, night"
+  },
+  {
+    "id": "poem_049",
+    "title": "If—",
+    "poet": "Rudyard Kipling (1865-1936)",
+    "language": "English",
+    "original": "If you can keep your head when all about you\n    Are losing theirs and blaming it on you;\nIf you can trust yourself when all men doubt you,\n    But make allowance for their doubting too:\nIf you can wait and not be tired by waiting,\n    Or being lied about, don't deal in lies,\nOr being hated don't give way to hating,\n    And yet don't look too good, nor talk too wise;\nIf you can dream—and not make dreams your master;\n    If you can think—and not make thoughts your aim,\nIf you can meet with Triumph and Disaster\n    And treat those two impostors just the same:\nIf you can bear to hear the truth you've spoken\n    Twisted by knaves to make a trap for fools,\nOr watch the things you gave your life to, broken,\n    And stoop and build 'em up with worn-out tools;\nIf you can make one heap of all your winnings\n    And risk it on one turn of pitch-and-toss,\nAnd lose, and start again at your beginnings\n    And never breathe a word about your loss:\nIf you can force your heart and nerve and sinew\n    To serve your turn long after they are gone,\nAnd so hold on when there is nothing in you\n    Except the Will which says to them: \"Hold on!\"\nIf you can talk with crowds and keep your virtue,\n    Or walk with Kings—nor lose the common touch,\nIf neither foes nor loving friends can hurt you,\n    If all men count with you, but none too much:\nIf you can fill the unforgiving minute\n    With sixty seconds' worth of distance run,\nYours is the Earth and everything that's in it,\n    And—which is more—you'll be a Man, my son!",
+    "translation": null,
+    "is_excerpt": false,
+    "tags": "unforgiving, lose, trust, impostors, watch, turn"
+  },
+  {
+    "id": "poem_050",
+    "title": "Exultation Is The Going",
+    "poet": "Emily Dickinson (1830-1886)",
+    "language": "English",
+    "original": "Exultation is the going\nOf an inland soul to sea,\nPast the houses—past the headlands—\nInto deep Eternity—\nBred as we, among the mountains,\nCan the sailor understand\nThe divine intoxication\nOf the first league out from land?",
+    "translation": null,
+    "is_excerpt": false,
+    "tags": "devotional, contemplative, exultation, eternity, sailor, intoxication"
+  },
+  {
+    "id": "poem_051",
+    "title": "The Windhover",
+    "poet": "Gerard Manley Hopkins (1844-1889)",
+    "language": "English",
+    "original": "I caught this morning morning's minion, king-\n    dom of daylight's dauphin, dapple-dawn-drawn Falcon, in his riding\n    Of the rolling level underneath him steady air, and striding\nHigh there, how he rung upon the rein of a wimpling wing\nIn his ecstasy! then off, off forth on swing,\n    As a skate's heel sweeps smooth on a bow-bend: the hurl and gliding\n    Rebuffed the big wind. My heart in hiding\nStirred for a bird, – the achieve of, the mastery of the thing!\nBrute beauty and valour and act, oh, air, pride, plume, here\n    Buckle! AND the fire that breaks from thee then, a billion\nTimes told lovelier, more dangerous, O my chevalier!\nNo wonder of it: shéer plód makes plough down sillion\nShine, and blue-bleak embers, ah my dear,\n    Fall, gall themselves, and gash gold-vermilion.",
+    "translation": null,
+    "is_excerpt": false,
+    "tags": "flowing, chevalier, gliding, plume, dawn, wind"
+  },
+  {
+    "id": "poem_052",
+    "title": "Eldorado",
+    "poet": "Edgar Allan Poe (1809-1849)",
+    "language": "English",
+    "original": "Gaily bedight,\n   A gallant knight,\nIn sunshine and in shadow,\n   Had journeyed long,\n   Singing a song,\nIn search of Eldorado.\n   But he grew old—\n   This knight so bold—\nAnd o'er his heart a shadow—\n   Fell as he found\n   No spot of ground\nThat looked like Eldorado.\n   And, as his strength\n   Failed him at length,\nHe met a pilgrim shadow—\n   'Shadow,' said he,\n   'Where can it be—\nThis land of Eldorado?'\n   'Over the Mountains\n   Of the Moon,\nDown the Valley of the Shadow,\n   Ride, boldly ride,'\n   The shade replied,—\n'If you seek for Eldorado!'",
+    "translation": null,
+    "is_excerpt": false,
+    "tags": "eldorado, shadow, gaily, sunshine, gallant, bedight"
+  },
+  {
+    "id": "poem_053",
+    "title": "La Belle Dame sans Merci",
+    "poet": "John Keats (1795-1821)",
+    "language": "English",
+    "original": "O what can ail thee, knight-at-arms,\n       Alone and palely loitering?\nThe sedge has withered from the lake,\n       And no birds sing.\nO what can ail thee, knight-at-arms,\n       So haggard and so woe-begone?\nThe squirrel's granary is full,\n       And the harvest's done.\nI see a lily on thy brow,\n       With anguish moist and fever-dew,\nAnd on thy cheeks a fading rose\n       Fast withereth too.\nI met a lady in the meads,\n       Full beautiful—a faery's child,\nHer hair was long, her foot was light,\n       And her eyes were wild.\nI made a garland for her head,\n       And bracelets too, and fragrant zone;\nShe looked at me as she did love,\n       And made sweet moan\nI set her on my pacing steed,\n       And nothing else saw all day long,\nFor sidelong would she bend, and sing\n       A faery's song.\nShe found me roots of relish sweet,\n       And honey wild, and manna-dew,\nAnd sure in language strange she said—\n       'I love thee true'.\nShe took me to her Elfin grot,\n       And there she wept and sighed full sore,\nAnd there I shut her wild wild eyes\n       With kisses four.\nAnd there she lullèd me asleep,\n       And there I dreamed—Ah! woe betide!—\nThe latest dream I ever dreamt\n       On the cold hill side.\nI saw pale kings and princes too,\n       Pale warriors, death-pale were they all;\nThey cried—'La Belle Dame sans Merci\n       Thee hath in thrall!'\nI saw their starved lips in the gloam,\n       With horrid warning gapèd wide,\nAnd I awoke and found me here,\n       On the cold hill's side.\nAnd this is why I sojourn here,\n       Alone and palely loitering,\nThough the sedge is withered from the lake,\n       And no birds sing.",
+    "translation": null,
+    "is_excerpt": false,
+    "tags": "faery, lily, anguish, sedge, fragrant, relish"
+  },
+  {
+    "id": "poem_054",
+    "title": "The Lake Isle of Innisfree",
+    "poet": "William Butler Yeats (1865-1939)",
+    "language": "English",
+    "original": "I will arise and go now, and go to Innisfree,\nAnd a small cabin build there, of clay and wattles made;\nNine bean-rows will I have there, a hive for the honey-bee,\nAnd live alone in the bee-loud glade.\nAnd I shall have some peace there, for peace comes dropping slow,\nDropping from the veils of the morning to where the cricket sings;\nThere midnight's all a glimmer, and noon a purple glow,\nAnd evening full of the linnet's wings.\nI will arise and go now, for always night and day\nI hear lake water lapping with low sounds by the shore;\nWhile I stand on the roadway, or on the pavements grey,\nI hear it in the deep heart's core.",
+    "translation": null,
+    "is_excerpt": false,
+    "tags": "peaceful, arise, lake, peace, sings, shall"
+  },
+  {
+    "id": "poem_055",
+    "title": "The Destruction of Sennacherib",
+    "poet": "Lord Byron (1788-1824)",
+    "language": "English",
+    "original": "The Assyrian came down like the wolf on the fold,\nAnd his cohorts were gleaming in purple and gold;\nAnd the sheen of their spears was like stars on the sea,\nWhen the blue wave rolls nightly on deep Galilee.\n   Like the leaves of the forest when Summer is green,\nThat host with their banners at sunset were seen:\nLike the leaves of the forest when Autumn hath blown,\nThat host on the morrow lay withered and strown.\n   For the Angel of Death spread his wings on the blast,\nAnd breathed in the face of the foe as he passed;\nAnd the eyes of the sleepers waxed deadly and chill,\nAnd their hearts but once heaved, and for ever grew still!\n   And there lay the steed with his nostril all wide,\nBut through it there rolled not the breath of his pride;\nAnd the foam of his gasping lay white on the turf,\nAnd cold as the spray of the rock-beating surf.\n   And there lay the rider distorted and pale,\nWith the dew on his brow, and the rust on his mail:\nAnd the tents were all silent, the banners alone,\nThe lances unlifted, the trumpet unblown.\n   And the widows of Ashur are loud in their wail,\nAnd the idols are broke in the temple of Baal;\nAnd the might of the Gentile, unsmote by the sword,\nHath melted like snow in the glance of the Lord!",
+    "translation": null,
+    "is_excerpt": false,
+    "tags": "autumnal, assyrian, gleaming, morrow, breathed, angel"
+  },
+  {
+    "id": "poem_056",
+    "title": "London",
+    "poet": "William Blake (1757-1827)",
+    "language": "English",
+    "original": "I wander thro' each charter'd street,\nNear where the charter'd Thames does flow.\nAnd mark in every face I meet\nMarks of weakness, marks of woe.\nIn every cry of every Man,\nIn every Infants cry of fear,\nIn every voice: in every ban,\nThe mind-forg'd manacles I hear\nHow the Chimney-sweepers cry\nEvery blackning Church appalls,\nAnd the hapless Soldiers sigh\nRuns in blood down Palace walls\nBut most thro' midnight streets I hear\nHow the youthful Harlots curse\nBlasts the new-born Infants tear\nAnd blights with plagues the Marriage hearse",
+    "translation": null,
+    "is_excerpt": false,
+    "tags": "streets, plagues, thames, harlots, hearse, manacles"
+  },
+  {
+    "id": "poem_057",
+    "title": "Mùa Xuân Chín (Ripe Spring)",
+    "poet": "Hàn Mặc Tử (1912-1940)",
+    "language": "Vietnamese",
+    "original": "Trong làn nắng ửng: khói mơ tan,\nĐôi mái nhà tranh lấm tấm vàng.\nSột soạt gió trêu tà áo biếc,\nTrên giàn thiên lí. Bóng xuân sang.\n\nSóng cỏ xanh tươi gợn tới trời\nBao cô thôn nữ hát trên đồi;\n– Ngày mai trong đám xuân xanh ấy,\nCó kẻ theo chồng bỏ cuộc chơi…\n\nTiếng ca vắt vẻo lưng chừng núi,\nHổn hển như lời của nước mây,\nThầm thĩ với ai ngồi dưới trúc,\nNghe ra ý vị và thơ ngây…\n\nKhách xa gặp lúc mùa xuân chín,\nLòng trí bâng khuâng sực nhớ làng:\n– \"Chị ấy, năm nay còn gánh thóc\nDọc bờ sông trắng nắng chang chang?\"",
+    "translation": "In pure sunlight: dreams dissolve,\nA pair of thatched roofs speckled gold.\nThe teasing wind rustles emerald clothes,\nOn fragrant arbor. See spring unfold.\n\nVerdant grass waves ripple to the sky.\nAround the village, girls singing on high.\n– Perhaps tomorrow from that youthful throng,\nOne will follow a husband, bid her game goodbye…\n\nSound of singing on the mountain,\nSoft as words of water and clouds…\nMurmuring with those sitting under bamboo,\nSuch delicate and innocent sounds…\n\nGuests from afar meet at ripe spring,\nHearts and minds suddenly long for home:\n– This year, does she still carry rice,\nAlong the riverbank under the bright blazing sun?",
+    "is_excerpt": false,
+    "tags": "hopeful, sunlight, dreams, spring, fragrant, speckled"
+  },
+  {
+    "id": "poem_058",
+    "title": "Từ Ấy (From That Moment)",
+    "poet": "Tố Hữu (1920-2002)",
+    "language": "Vietnamese",
+    "original": "Từ ấy trong tôi bừng nắng hạ\nMặt trời chân lý chói qua tim\nHồn tôi là một vườn hoa lá\nRất đậm hương và rộn tiếng chim...\n\nTôi buộc lòng tôi với mọi người\nĐể tình trang trải với trăm nơi\nĐể hồn tôi với bao hồn khổ\nGần gũi nhau thêm mạnh khối đời\n\nTôi đã là con của vạn nhà\nLà em của vạn kiếp phôi pha\nLà anh của vạn đầu em nhỏ\nKhông áo cơm, cù bất cù bơ...",
+    "translation": "From that moment, summer sunshine burst forth within me,\nthe sun of truth shining through my heart.\nMy soul is a garden of flowers and leaves,\nrich in fragrance and filled with the sound of birds...\n\nI bind my heart to all people,\nso that love may spread to a hundred places,\nso that my soul, with countless suffering souls,\nmay draw closer, strengthening the fabric of life.\n\nI have become a child of countless homes,\na sibling of countless fleeting lives,\nan older brother to countless little ones,\nwithout clothes or food, utterly destitute...",
+    "is_excerpt": false,
+    "tags": "devotional, warm, delicate, sunshine, soul, summer"
+  },
+  {
+    "id": "poem_059",
+    "title": "Bếp Lửa (The Hearth Fire, excerpt)",
+    "poet": "Bằng Việt (1941-)",
+    "language": "Vietnamese",
+    "original": "Một bếp lửa chờn vờn sương sớm\nMột bếp lửa ấp iu nồng đượm\nCháu thương bà biết mấy nắng mưa!\n\nLên bốn tuổi cháu đã quen mùi khói\nNăm ấy là năm đói mòn đói mỏi,\nBố đi đánh xe, khô rạc ngựa gầy,\nChỉ nhớ khói hun nhèm mắt cháu\nNghĩ lại đến giờ sống mũi còn cay!\n\nTám năm ròng, cháu cùng bà nhóm lửa\nTu hú kêu trên những cánh đồng xa\nKhi tu hú kêu, bà còn nhớ không bà?\nBà hay kể chuyện những ngày ở Huế.\nTiếng tu hú sao mà tha thiết thế!\nMẹ cùng cha công tác bận không về,\nCháu ở cùng bà, bà bảo cháu nghe,\nBà dạy cháu làm, bà chăm cháu học,\nNhóm bếp lửa nghĩ thương bà khó nhọc,\nTu hú ơi! Chẳng đến ở cùng bà,\nKêu chi hoài trên những cánh đồng xa?",
+    "translation": "A flickering hearth through morning mist,\nA hearth glowing warm and deeply loved —\nHow dearly I miss my grandmother through sun and rain!\n\nBy age four I had grown used to the smell of smoke.\nThat year was a year of endless, grinding hunger.\nFather drove a cart, the horse gaunt and dry.\nI only remember smoke stinging my eyes —\nEven now, thinking back, my nose still burns!\n\nFor eight long years, grandmother and I kept the fire.\nThe cuckoo called across the distant fields.\nWhen the cuckoo called, do you still remember, grandmother?\nYou loved to tell stories of your days in Hue.\nHow piercing that cuckoo's cry!\nMother and father were away with work and could not return.\nI stayed with grandmother — she told me to listen,\nShe taught me to work, she watched over my studies.\nTending the hearth, I thought of how hard her life was.\nOh cuckoo! Why not come and stay with grandmother?\nWhy keep calling across those distant fields?",
+    "is_excerpt": true,
+    "tags": "cuckoo, grandmother, mist, burns, hearth, remember"
+  },
+  {
+    "id": "poem_060",
+    "title": "Sóng (Waves, excerpt)",
+    "poet": "Xuân Quỳnh (1942-1988)",
+    "language": "Vietnamese",
+    "original": "Trước muôn trùng sóng bể\nEm nghĩ về anh, em\nEm nghĩ về biển lớn\nTừ nơi nào sóng lên?\n\nSóng bắt đầu từ gió\nGió bắt đầu từ đâu?\nEm cũng không biết nữa\nKhi nào ta yêu nhau",
+    "translation": "Before the countless waves of the sea,\nI think of you,\nI think of the vast ocean.\nFrom where do the waves rise?\n\nWaves begin with the wind.\nWhere does the wind begin?\nI don't know either.\nWhen will we love each other?",
+    "is_excerpt": true,
+    "tags": "flowing, romantic, majestic, ocean, waves, wind"
   }
 ]
