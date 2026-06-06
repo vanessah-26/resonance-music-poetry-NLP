@@ -24,15 +24,6 @@ def _get_collection():
 
 
 def poems_to_chroma_db() -> None:
-    """
-    Load poems.json into ChromaDB.
-    Safe to call on every startup — skips if already populated.
- 
-    RAG indexing happens here:
-    - Each poem's tags string is embedded into a 384-dim vector
-    - Vectors stored in ChromaDB with full poem metadata attached
-    - At query time, music tags are embedded and compared via cosine similarity
-    """
     collection = _get_collection()
  
     if collection.count() > 0:
