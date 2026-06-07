@@ -591,12 +591,12 @@
   },
   {
     "id": "poem_061",
-    "title": "The Power of a Smile",
-    "poet": "Tupac Shakur (1971-1996)",
+    "title": "I saw a man pursuing the horizon",
+    "poet": "Stephen Crane (1871-1900)",
     "language": "English",
-    "original": "The power of a gun can kill\nand the power of fire can burn\nthe power of wind can chill\nand the power of a mind can learn\nthe power of anger can rage\ninside until it tears u apart\nbut the power of a smile\nespecially yours can heal a frozen heart",
+    "original": "I saw a man pursuing the horizon;\nRound and round they sped.\nI was disturbed at this;\nI accosted the man.\n\"It is futile,\" I said,\n\"You can never —\"\n\"You lie,\" he cried,\nAnd ran on.",
     "translation": null,
     "is_excerpt": false,
-    "tags": "intense, passionate, gentle, flowing, power, anger"
+    "tags": "horizon, futile, cried, sped, pursuing, round"
   }
 ]
