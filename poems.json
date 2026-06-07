@@ -24,7 +24,7 @@
     "title": "The Road Not Taken",
     "poet": "Robert Frost (1874-1963)",
     "language": "English",
-    "original": "Two roads diverged in a yellow wood,\nAnd sorry I could not travel both\nAnd be one traveler, long I stood\nAnd looked down one as far as I could\nTo where it bent in the undergrowth;\nThen took the other, as just as fair,\nAnd having perhaps the better claim,\nBecause it was grassy and wanted wear;\nThough as for that the passing there\nHad worn them really about the same,\nAnd both that morning equally lay\nIn leaves no step had trodden black.\nOh, I kept the first for another day!\nYet knowing how way leads on to way,\nI doubted if I should ever come back.\nI shall be telling this with a sigh\nSomewhere ages and ages hence:\nTwo roads diverged in a wood, and I—\nI took the one less traveled by,\nAnd that has made all the difference.",
+    "original": "Two roads diverged in a yellow wood,\nAnd sorry I could not travel both\nAnd be one traveler, long I stood\nAnd looked down one as far as I could\nTo where it bent in the undergrowth;\n\nThen took the other, as just as fair,\nAnd having perhaps the better claim,\nBecause it was grassy and wanted wear;\nThough as for that the passing there\nHad worn them really about the same,\n\nAnd both that morning equally lay\nIn leaves no step had trodden black.\nOh, I kept the first for another day!\nYet knowing how way leads on to way,\nI doubted if I should ever come back.\n\nI shall be telling this with a sigh\nSomewhere ages and ages hence:\nTwo roads diverged in a wood, and I—\nI took the one less traveled by,\nAnd that has made all the difference.",
     "translation": null,
     "is_excerpt": false,
     "tags": "traveled, roads, diverged, passing, wood, equally"
@@ -124,8 +124,8 @@
     "title": "Vội Vàng (Haste)",
     "poet": "Xuân Diệu (1916-1985)",
     "language": "Vietnamese",
-    "original": "Tôi muốn tắt nắng đi Cho màu đừng nhạt mất;\nTôi muốn buộc gió lại Cho hương đừng bay đi.\nCủa ong bướm này đây tuần tháng mật;\nNày đây hoa của đồng nội xanh rì;\nNày đây lá của cành tơ phơ phất;\nCủa yến anh này đây khúc tình si;\nVà này đây ánh sáng chớp hàng mi;\nMỗi buổi sớm thần Vui hằng gõ cửa;\nTháng Giêng ngon như một cặp môi gần;\nTôi sung sướng. Nhưng vội vàng một nửa:\nTôi không chờ nắng hạ mới hoài xuân.",
-    "translation": "I want to turn off the sun,\nSo that colors don't fade;\nI want to tie down the wind,\nSo that fragrances don't fly away.\nHere is the honeyed week of bees and butterflies;\nHere are the flowers of the lush green fields;\nHere are the leaves of the trembling young branches;\nHere is the passionate song of swallows and orioles;\nAnd here is the light that flashes on eyelashes;\nEach morning the god of Joy knocks at the door;\nJanuary is delicious like a pair of nearby lips; I am happy.\nBut also, in haste: I won't wait for summer sun to regret spring.",
+    "original": "Tôi muốn tắt nắng đi\nCho màu đừng nhạt mất;\nTôi muốn buộc gió lại\nCho hương đừng bay đi.\n\nCủa ong bướm này đây tuần tháng mật;\nNày đây hoa của đồng nội xanh rì;\nNày đây lá của cành tơ phơ phất;\nCủa yến anh này đây khúc tình si;\nVà này đây ánh sáng chớp hàng mi;\nMỗi buổi sớm thần Vui hằng gõ cửa;\nTháng Giêng ngon như một cặp môi gần;\nTôi sung sướng. Nhưng vội vàng một nửa:\nTôi không chờ nắng hạ mới hoài xuân.",
+    "translation": "I want to turn off the sun,\nSo that colors don't fade;\nI want to tie down the wind,\nSo that fragrances don't fly away.\n\nHere is the honeyed week of bees and butterflies;\nHere are the flowers of the lush green fields;\nHere are the leaves of the trembling young branches;\nHere is the passionate song of swallows and orioles;\nAnd here is the light that flashes on eyelashes;\nEach morning the god of Joy knocks at the door;\nJanuary is delicious like a pair of nearby lips; I am happy.\nBut also, in haste: I won't wait for summer sun to regret spring.",
     "is_excerpt": false,
     "tags": "bright, hopeful, joyful, spring, fade, butterflies"
   },
@@ -151,13 +151,13 @@
   },
   {
     "id": "poem_016",
-    "title": "Tát Nước Đầu Đình (Splashing Water at the Communal House)",
+    "title": "Tát Nước Đầu Đình (Splashing Water by the Village Communal House)",
     "poet": "Vietnamese Folk Poem (anonymous)",
     "language": "Vietnamese",
-    "original": "Tát nước đầu đình, bỏ vành nón tơi,\nNhớ người thôn nữ, mắt tươi tóc thề.",
-    "translation": "Splashing water at the communal house's edge, setting aside my palm-leaf hat,\nI remember the village girl, with bright eyes and flowing hair.",
+    "original": "Hôm qua tát nước đầu đình\nBỏ quên cái áo trên cành hoa sen\nEm được thì cho anh xin\nHay là em để làm tin trong nhà\n\nÁo anh sứt chỉ đường tà\nVợ anh chưa có, mẹ già chưa khâu\nÁo anh sứt chỉ đã lâu\nMai mượn cô ấy về khâu cho cùng.\n\nKhâu rồi anh sẽ trả công\nĐến khi lấy chồng, anh sẽ giúp cho\nGiúp em năm thúng xôi vò\nBa con lợn béo, một vò rượu tăm\n\nGiúp em đôi chiếu em nằm\nĐôi chăn em đắp, đôi chằm em đeo\nGiúp cho quan tám tiền cheo,\nQuan năm tiền cưới, lại đèo buồng cau",
+    "translation": "Yesterday I was scooping water by the communal house,\nAnd left my shirt forgotten on a lotus branch.\nIf you found it, please give it back to me,\nOr keep it as a token of our bond.\n\nMy shirt has a loose thread at the hem,\nI have no wife yet, and my old mother hasn't sewn it.\nThe thread has been loose for a long time now —\nTomorrow I'll borrow her hands to mend it together.\n\nOnce it's sewn, I will repay the favor,\nWhen you marry, I will help you celebrate:\nFive baskets of sticky rice,\nThree fat pigs, and a jar of fine wine.\n\nI'll give you two mats to sleep on,\nTwo blankets to cover you, two bags to wear,\nEight coins for the village wedding fee,\nFive coins for the ceremony, and a bunch of betel.",
     "is_excerpt": false,
-    "tags": "nature, bright, village, leaf, splashing, hair"
+    "tags": "nostalgic, wedding, celebrate, sewn, coins, borrow"
   },
   {
     "id": "poem_017",
@@ -238,16 +238,6 @@
     "translation": null,
     "is_excerpt": true,
     "tags": "passionate, nostalgic, numbness, drowsy, pains, opiate"
-  },
-  {
-    "id": "poem_025",
-    "title": "Sonnet 43: How do I love thee?",
-    "poet": "Elizabeth Barrett Browning (1806-1861)",
-    "language": "English",
-    "original": "I love thee to the depth and breadth and height\nMy soul can reach, when feeling out of sight\nFor the ends of being and ideal grace.",
-    "translation": null,
-    "is_excerpt": true,
-    "tags": "devotional, romantic, thee, grace, depth, soul"
   },
   {
     "id": "poem_026",
@@ -454,7 +444,7 @@
     "title": "To Autumn",
     "poet": "John Keats (1795-1821)",
     "language": "English",
-    "original": "Season of mists and mellow fruitfulness,\nClose bosom-friend of the maturing sun;\nConspiring with him how to load and bless\nWith fruit the vines that round the thatch-eves run;\nTo bend with apples the moss'd cottage-trees,\nAnd fill all fruit with ripeness to the core;\nTo swell the gourd, and plump the hazel shells\nWith a sweet kernel; to set budding more,\nAnd still more, later flowers for the bees,\nUntil they think warm days will never cease,\nFor summer has o'er-brimm'd their clammy cells.\nWho hath not seen thee oft amid thy store?\nSometimes whoever seeks abroad may find\nThee sitting careless on a granary floor,\nThy hair soft-lifted by the winnowing wind;\nOr on a half-reap'd furrow sound asleep,\nDrows'd with the fume of poppies, while thy hook\nSpares the next swath and all its twined flowers:\nAnd sometimes like a gleaner thou dost keep\nSteady thy laden head across a brook;\nOr by a cyder-press, with patient look,\nThou watchest the last oozings hours by hours.\nWhere are the songs of Spring? Ay, where are they?\nThink not of them, thou hast thy music too,—\nWhile barred clouds bloom the soft-dying day,\nAnd touch the stubble-plains with rosy hue;\nThen in a wailful choir the small gnats mourn\nAmong the river sallows, borne aloft\nOr sinking as the light wind lives or dies;\nAnd full-grown lambs loud bleat from hilly bourn;\nHedge-crickets sing; and now with treble soft\nThe red-breast whistles from a garden-croft;\nAnd gathering swallows twitter in the skies.",
+    "original": "Season of mists and mellow fruitfulness,\nClose bosom-friend of the maturing sun;\nConspiring with him how to load and bless\nWith fruit the vines that round the thatch-eves run;\nTo bend with apples the moss'd cottage-trees,\nAnd fill all fruit with ripeness to the core;\nTo swell the gourd, and plump the hazel shells\nWith a sweet kernel; to set budding more,\nAnd still more, later flowers for the bees,\nUntil they think warm days will never cease,\nFor summer has o'er-brimm'd their clammy cells.\n\nWho hath not seen thee oft amid thy store?\nSometimes whoever seeks abroad may find\nThee sitting careless on a granary floor,\nThy hair soft-lifted by the winnowing wind;\nOr on a half-reap'd furrow sound asleep,\nDrows'd with the fume of poppies, while thy hook\nSpares the next swath and all its twined flowers:\nAnd sometimes like a gleaner thou dost keep\nSteady thy laden head across a brook;\nOr by a cyder-press, with patient look,\nThou watchest the last oozings hours by hours.\n\nWhere are the songs of Spring? Ay, where are they?\nThink not of them, thou hast thy music too,—\nWhile barred clouds bloom the soft-dying day,\nAnd touch the stubble-plains with rosy hue;\nThen in a wailful choir the small gnats mourn\nAmong the river sallows, borne aloft\nOr sinking as the light wind lives or dies;\nAnd full-grown lambs loud bleat from hilly bourn;\nHedge-crickets sing; and now with treble soft\nThe red-breast whistles from a garden-croft;\nAnd gathering swallows twitter in the skies.",
     "translation": null,
     "is_excerpt": false,
     "tags": "delicate, hopeful, oozings, flowers, fruitfulness, mists"
@@ -484,7 +474,7 @@
     "title": "If—",
     "poet": "Rudyard Kipling (1865-1936)",
     "language": "English",
-    "original": "If you can keep your head when all about you\n    Are losing theirs and blaming it on you;\nIf you can trust yourself when all men doubt you,\n    But make allowance for their doubting too:\nIf you can wait and not be tired by waiting,\n    Or being lied about, don't deal in lies,\nOr being hated don't give way to hating,\n    And yet don't look too good, nor talk too wise;\nIf you can dream—and not make dreams your master;\n    If you can think—and not make thoughts your aim,\nIf you can meet with Triumph and Disaster\n    And treat those two impostors just the same:\nIf you can bear to hear the truth you've spoken\n    Twisted by knaves to make a trap for fools,\nOr watch the things you gave your life to, broken,\n    And stoop and build 'em up with worn-out tools;\nIf you can make one heap of all your winnings\n    And risk it on one turn of pitch-and-toss,\nAnd lose, and start again at your beginnings\n    And never breathe a word about your loss:\nIf you can force your heart and nerve and sinew\n    To serve your turn long after they are gone,\nAnd so hold on when there is nothing in you\n    Except the Will which says to them: \"Hold on!\"\nIf you can talk with crowds and keep your virtue,\n    Or walk with Kings—nor lose the common touch,\nIf neither foes nor loving friends can hurt you,\n    If all men count with you, but none too much:\nIf you can fill the unforgiving minute\n    With sixty seconds' worth of distance run,\nYours is the Earth and everything that's in it,\n    And—which is more—you'll be a Man, my son!",
+    "original": "If you can keep your head when all about you\n    Are losing theirs and blaming it on you;\nIf you can trust yourself when all men doubt you,\n    But make allowance for their doubting too:\nIf you can wait and not be tired by waiting,\n    Or being lied about, don't deal in lies,\nOr being hated don't give way to hating,\n    And yet don't look too good, nor talk too wise;\n\nIf you can dream—and not make dreams your master;\n    If you can think—and not make thoughts your aim,\nIf you can meet with Triumph and Disaster\n    And treat those two impostors just the same:\nIf you can bear to hear the truth you've spoken\n    Twisted by knaves to make a trap for fools,\nOr watch the things you gave your life to, broken,\n    And stoop and build 'em up with worn-out tools;\n\nIf you can make one heap of all your winnings\n    And risk it on one turn of pitch-and-toss,\nAnd lose, and start again at your beginnings\n    And never breathe a word about your loss:\nIf you can force your heart and nerve and sinew\n    To serve your turn long after they are gone,\nAnd so hold on when there is nothing in you\n    Except the Will which says to them: \"Hold on!\"\n\nIf you can talk with crowds and keep your virtue,\n    Or walk with Kings—nor lose the common touch,\nIf neither foes nor loving friends can hurt you,\n    If all men count with you, but none too much:\nIf you can fill the unforgiving minute\n    With sixty seconds' worth of distance run,\nYours is the Earth and everything that's in it,\n    And—which is more—you'll be a Man, my son!",
     "translation": null,
     "is_excerpt": false,
     "tags": "unforgiving, lose, trust, impostors, watch, turn"
@@ -524,7 +514,7 @@
     "title": "La Belle Dame sans Merci",
     "poet": "John Keats (1795-1821)",
     "language": "English",
-    "original": "O what can ail thee, knight-at-arms,\n       Alone and palely loitering?\nThe sedge has withered from the lake,\n       And no birds sing.\nO what can ail thee, knight-at-arms,\n       So haggard and so woe-begone?\nThe squirrel's granary is full,\n       And the harvest's done.\nI see a lily on thy brow,\n       With anguish moist and fever-dew,\nAnd on thy cheeks a fading rose\n       Fast withereth too.\nI met a lady in the meads,\n       Full beautiful—a faery's child,\nHer hair was long, her foot was light,\n       And her eyes were wild.\nI made a garland for her head,\n       And bracelets too, and fragrant zone;\nShe looked at me as she did love,\n       And made sweet moan\nI set her on my pacing steed,\n       And nothing else saw all day long,\nFor sidelong would she bend, and sing\n       A faery's song.\nShe found me roots of relish sweet,\n       And honey wild, and manna-dew,\nAnd sure in language strange she said—\n       'I love thee true'.\nShe took me to her Elfin grot,\n       And there she wept and sighed full sore,\nAnd there I shut her wild wild eyes\n       With kisses four.\nAnd there she lullèd me asleep,\n       And there I dreamed—Ah! woe betide!—\nThe latest dream I ever dreamt\n       On the cold hill side.\nI saw pale kings and princes too,\n       Pale warriors, death-pale were they all;\nThey cried—'La Belle Dame sans Merci\n       Thee hath in thrall!'\nI saw their starved lips in the gloam,\n       With horrid warning gapèd wide,\nAnd I awoke and found me here,\n       On the cold hill's side.\nAnd this is why I sojourn here,\n       Alone and palely loitering,\nThough the sedge is withered from the lake,\n       And no birds sing.",
+    "original": "O what can ail thee, knight-at-arms,\n       Alone and palely loitering?\nThe sedge has withered from the lake,\n       And no birds sing.\n\nO what can ail thee, knight-at-arms,\n       So haggard and so woe-begone?\nThe squirrel's granary is full,\n       And the harvest's done.\n\nI see a lily on thy brow,\n       With anguish moist and fever-dew,\nAnd on thy cheeks a fading rose\n       Fast withereth too.\n\nI met a lady in the meads,\n       Full beautiful—a faery's child,\nHer hair was long, her foot was light,\n       And her eyes were wild.\n\nI made a garland for her head,\n       And bracelets too, and fragrant zone;\nShe looked at me as she did love,\n       And made sweet moan\n\nI set her on my pacing steed,\n       And nothing else saw all day long,\nFor sidelong would she bend, and sing\n       A faery's song.\n\nShe found me roots of relish sweet,\n       And honey wild, and manna-dew,\nAnd sure in language strange she said—\n       'I love thee true'.\n\nShe took me to her Elfin grot,\n       And there she wept and sighed full sore,\nAnd there I shut her wild wild eyes\n       With kisses four.\n\nAnd there she lullèd me asleep,\n       And there I dreamed—Ah! woe betide!—\nThe latest dream I ever dreamt\n       On the cold hill side.\n\nI saw pale kings and princes too,\n       Pale warriors, death-pale were they all;\nThey cried—'La Belle Dame sans Merci\n       Thee hath in thrall!'\n\nI saw their starved lips in the gloam,\n       With horrid warning gapèd wide,\nAnd I awoke and found me here,\n       On the cold hill's side.\n\nAnd this is why I sojourn here,\n       Alone and palely loitering,\nThough the sedge is withered from the lake,\n       And no birds sing.",
     "translation": null,
     "is_excerpt": false,
     "tags": "faery, lily, anguish, sedge, fragrant, relish"
@@ -534,7 +524,7 @@
     "title": "The Lake Isle of Innisfree",
     "poet": "William Butler Yeats (1865-1939)",
     "language": "English",
-    "original": "I will arise and go now, and go to Innisfree,\nAnd a small cabin build there, of clay and wattles made;\nNine bean-rows will I have there, a hive for the honey-bee,\nAnd live alone in the bee-loud glade.\nAnd I shall have some peace there, for peace comes dropping slow,\nDropping from the veils of the morning to where the cricket sings;\nThere midnight's all a glimmer, and noon a purple glow,\nAnd evening full of the linnet's wings.\nI will arise and go now, for always night and day\nI hear lake water lapping with low sounds by the shore;\nWhile I stand on the roadway, or on the pavements grey,\nI hear it in the deep heart's core.",
+    "original": "I will arise and go now, and go to Innisfree,\nAnd a small cabin build there, of clay and wattles made;\nNine bean-rows will I have there, a hive for the honey-bee,\nAnd live alone in the bee-loud glade.\n\nAnd I shall have some peace there, for peace comes dropping slow,\nDropping from the veils of the morning to where the cricket sings;\nThere midnight's all a glimmer, and noon a purple glow,\nAnd evening full of the linnet's wings.\n\nI will arise and go now, for always night and day\nI hear lake water lapping with low sounds by the shore;\nWhile I stand on the roadway, or on the pavements grey,\nI hear it in the deep heart's core.",
     "translation": null,
     "is_excerpt": false,
     "tags": "peaceful, arise, lake, peace, sings, shall"
@@ -544,7 +534,7 @@
     "title": "The Destruction of Sennacherib",
     "poet": "Lord Byron (1788-1824)",
     "language": "English",
-    "original": "The Assyrian came down like the wolf on the fold,\nAnd his cohorts were gleaming in purple and gold;\nAnd the sheen of their spears was like stars on the sea,\nWhen the blue wave rolls nightly on deep Galilee.\n   Like the leaves of the forest when Summer is green,\nThat host with their banners at sunset were seen:\nLike the leaves of the forest when Autumn hath blown,\nThat host on the morrow lay withered and strown.\n   For the Angel of Death spread his wings on the blast,\nAnd breathed in the face of the foe as he passed;\nAnd the eyes of the sleepers waxed deadly and chill,\nAnd their hearts but once heaved, and for ever grew still!\n   And there lay the steed with his nostril all wide,\nBut through it there rolled not the breath of his pride;\nAnd the foam of his gasping lay white on the turf,\nAnd cold as the spray of the rock-beating surf.\n   And there lay the rider distorted and pale,\nWith the dew on his brow, and the rust on his mail:\nAnd the tents were all silent, the banners alone,\nThe lances unlifted, the trumpet unblown.\n   And the widows of Ashur are loud in their wail,\nAnd the idols are broke in the temple of Baal;\nAnd the might of the Gentile, unsmote by the sword,\nHath melted like snow in the glance of the Lord!",
+    "original": "The Assyrian came down like the wolf on the fold,\nAnd his cohorts were gleaming in purple and gold;\nAnd the sheen of their spears was like stars on the sea,\nWhen the blue wave rolls nightly on deep Galilee.\n\n   Like the leaves of the forest when Summer is green,\nThat host with their banners at sunset were seen:\nLike the leaves of the forest when Autumn hath blown,\nThat host on the morrow lay withered and strown.\n\n   For the Angel of Death spread his wings on the blast,\nAnd breathed in the face of the foe as he passed;\nAnd the eyes of the sleepers waxed deadly and chill,\nAnd their hearts but once heaved, and for ever grew still!\n\n   And there lay the steed with his nostril all wide,\nBut through it there rolled not the breath of his pride;\nAnd the foam of his gasping lay white on the turf,\nAnd cold as the spray of the rock-beating surf.\n\n   And there lay the rider distorted and pale,\nWith the dew on his brow, and the rust on his mail:\nAnd the tents were all silent, the banners alone,\nThe lances unlifted, the trumpet unblown.\n\n   And the widows of Ashur are loud in their wail,\nAnd the idols are broke in the temple of Baal;\nAnd the might of the Gentile, unsmote by the sword,\nHath melted like snow in the glance of the Lord!",
     "translation": null,
     "is_excerpt": false,
     "tags": "autumnal, assyrian, gleaming, morrow, breathed, angel"
@@ -554,7 +544,7 @@
     "title": "London",
     "poet": "William Blake (1757-1827)",
     "language": "English",
-    "original": "I wander thro' each charter'd street,\nNear where the charter'd Thames does flow.\nAnd mark in every face I meet\nMarks of weakness, marks of woe.\nIn every cry of every Man,\nIn every Infants cry of fear,\nIn every voice: in every ban,\nThe mind-forg'd manacles I hear\nHow the Chimney-sweepers cry\nEvery blackning Church appalls,\nAnd the hapless Soldiers sigh\nRuns in blood down Palace walls\nBut most thro' midnight streets I hear\nHow the youthful Harlots curse\nBlasts the new-born Infants tear\nAnd blights with plagues the Marriage hearse",
+    "original": "I wander thro' each charter'd street,\nNear where the charter'd Thames does flow.\nAnd mark in every face I meet\nMarks of weakness, marks of woe.\n\nIn every cry of every Man,\nIn every Infants cry of fear,\nIn every voice: in every ban,\nThe mind-forg'd manacles I hear\n\nHow the Chimney-sweepers cry\nEvery blackning Church appalls,\nAnd the hapless Soldiers sigh\nRuns in blood down Palace walls\n\nBut most thro' midnight streets I hear\nHow the youthful Harlots curse\nBlasts the new-born Infants tear\nAnd blights with plagues the Marriage hearse",
     "translation": null,
     "is_excerpt": false,
     "tags": "streets, plagues, thames, harlots, hearse, manacles"
@@ -598,5 +588,15 @@
     "translation": "Before the countless waves of the sea,\nI think of you,\nI think of the vast ocean.\nFrom where do the waves rise?\n\nWaves begin with the wind.\nWhere does the wind begin?\nI don't know either.\nWhen will we love each other?",
     "is_excerpt": true,
     "tags": "flowing, romantic, majestic, ocean, waves, wind"
+  },
+  {
+    "id": "poem_061",
+    "title": "The Power of a Smile",
+    "poet": "Tupac Shakur (1971-1996)",
+    "language": "English",
+    "original": "The power of a gun can kill\nand the power of fire can burn\nthe power of wind can chill\nand the power of a mind can learn\nthe power of anger can rage\ninside until it tears u apart\nbut the power of a smile\nespecially yours can heal a frozen heart",
+    "translation": null,
+    "is_excerpt": false,
+    "tags": "intense, passionate, gentle, flowing, power, anger"
   }
 ]
