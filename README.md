@@ -104,8 +104,8 @@ git push hf main
  
 | Language | Count | Poets include |
 |---|---|---|
-| English | 41 | Shakespeare, Dickinson, Frost, Keats, Blake, Whitman, Poe, Yeats, Hopkins, Kipling, Byron, Tennyson, Tupac Shakur |
-| Vietnamese | 11 | Nguyễn Du, Xuân Diệu, Hàn Mặc Tử, Hồ Chí Minh, Tố Hữu, Bằng Việt, Xuân Quỳnh |
+| English | 43 | Shakespeare, Dickinson, Frost, Keats, Blake, Whitman, Poe, Yeats, Hopkins, Kipling, Byron, Tennyson, Browning, Wordsworth, Hughes, Longfellow, Lazarus, Silverstein, Tupac Shakur, Stephen Crane, Tagore, Basho, Henley, Dekker, Stevenson, Thayer, Kilmer, Williams |
+| Vietnamese | 9 | Nguyễn Du, Xuân Diệu, Hàn Mặc Tử, Hồ Chí Minh, Tố Hữu, Bằng Việt, Xuân Quỳnh, Anonymous folk|
 | Chinese | 4 | Li Bai, Yang Wanli, Wang Wei, Li Shen |
 | French | 5 | Verlaine, Hugo, Rimbaud, Desbordes-Valmore, La Fontaine |
  
