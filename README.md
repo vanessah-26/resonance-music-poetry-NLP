@@ -11,7 +11,7 @@ Select a piece of classical music. Discover the poems it echoes.
 - Output high-matched poems: no repeated poems music across selections
 - Two new high-matched poems every “Find Matching Poems” click 
 
-*Note: The first top 2 poems is always the highest matching result. Re-running "Find Matching Poems" on the same music piece will get new matching poems. However, the new result of poems may overlap with other music pieces, and/or less relevant to the current piece.*
+*Note*: The first top 2 poems is always the highest matching result. Re-running "Find Matching Poems" on the same music piece will get new matching poems. However, the new result of poems may overlap with other music pieces, and/or less relevant to the current piece.
 ---
 ## NLP Pipelines: 
 ```
@@ -19,7 +19,7 @@ Poem text (English or translation)
         ↓
 KeyBERT: extracts top 10 keywords using SentenceTransformers embeddings
         ↓
-MMR diversification (diversity=0.5): ensures most relevant keywords representing the poem without redundency 
+MMR diversification (diversity=0.5): ensures most relevant keywords representing the poem without redundancy 
         ↓
 MOOD_MAP: domain-specific lexicon maps raw words to mood vocabulary
         ↓
