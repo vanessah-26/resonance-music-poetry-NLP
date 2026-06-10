@@ -118,9 +118,9 @@ For non-English poems, `auto_tag.py` uses the English translation for keyword ex
 21 classical pieces spanning Baroque to Impressionist periods, covering a wide range of moods.
  
 Each piece has pre-computed features:
-- `tempo_feel` — slow / moderate / fast
+- `tempo_feel` - slow / moderate / fast
 - `key_feel` — major / minor
-- `mood` — comma-separated mood descriptors
+- `mood` — semantic mood descriptions
 - `tags` — semantic tags used for RAG retrieval
 - `audio_file` — URL to MP3 on HF dataset
 
