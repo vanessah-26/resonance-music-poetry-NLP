@@ -10,6 +10,8 @@ Select a piece of classical music. Discover the poems it echoes.
 - Musical features panel (tempo, key, mood, semantic tags)
 - Output high-matched poems: no repeated poems music across selections
 - Two new high-matched poems every “Find Matching Poems” click 
+
+*Note: The first top 2 poems is always the highest matching result. Re-running "Find Matching Poems" on the same music piece will get new matching poems. However, the new result of poems may overlap with other music pieces, and/or less relevant to the current piece.*
 ---
 ## NLP Pipelines: 
 ```
